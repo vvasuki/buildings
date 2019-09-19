@@ -1,0 +1,1168 @@
+<?xml version='1.0'?>
+<home version='6000' exportFlags='17' name='sahakAra-nagara-nw-deep.sh3d' camera='observerCamera' selectedLevel='level1' wallHeight='243.84'>
+  <property name='videoControllerFrameRate' value='25'/>
+  <property name='videoControllerHeight' value='768'/>
+  <property name='videoControllerWidth' value='1024'/>
+  <environment groundColor='FFAEFAFF' skyColor='00CCE4FC' lightColor='00D0D0D0'>
+    <observerCamera attribute='cameraPath' lens='PINHOLE' x='455.2782' y='2738.683' z='170.17969' yaw='-110.0535' pitch='-0.18420036' fieldOfView='1.0995575' time='1557057600000' fixedSize='true'/>
+    <observerCamera attribute='cameraPath' lens='PINHOLE' x='455.2782' y='2738.683' z='170.17969' yaw='-109.96352' pitch='-0.4392003' fieldOfView='1.0995575' time='1557057600000' fixedSize='true'/>
+    <observerCamera attribute='cameraPath' lens='PINHOLE' x='59.615616' y='540.55774' z='170.17969' yaw='-108.48849' pitch='-0.054199837' fieldOfView='1.0995575' time='1557057600000' fixedSize='true'/>
+  </environment>
+  <observerCamera attribute='observerCamera' lens='PINHOLE' x='308.64258' y='557.0907' z='170.17969' yaw='-107.5596' pitch='-0.10308872' fieldOfView='1.0995575' time='1557057600000' fixedSize='true'/>
+  <camera attribute='topCamera' lens='PINHOLE' x='791.1821' y='523.4973' z='2084.2131' yaw='-262.66415' pitch='1.3307965' fieldOfView='1.0995575' time='1557057600000'/>
+  <level id='level0' name='Sump' elevation='-259.08' floorThickness='12.0' height='259.08' elevationIndex='0'/>
+  <level id='level1' name='Level 0' elevation='0.0' floorThickness='12.0' height='487.68' elevationIndex='0'/>
+  <level id='level2' name='Mezzanine 0' elevation='228.59999' floorThickness='15.24' height='213.35999' elevationIndex='0' visible='false'/>
+  <level id='level3' name='Level 1' elevation='487.68' floorThickness='15.24' height='365.76' elevationIndex='0' visible='false'/>
+  <level id='level4' name='Level 1-attic' elevation='716.27997' floorThickness='15.24' height='365.76' elevationIndex='0' visible='false'/>
+  <level id='level5' name='Level 2' elevation='868.67993' floorThickness='15.24' height='304.8' elevationIndex='0' visible='false'/>
+  <level id='level6' name='Level 2-attic' elevation='1097.28' floorThickness='15.24' height='304.8' elevationIndex='0' visible='false'/>
+  <level id='level7' name='Level 3' elevation='1173.48' floorThickness='15.24' height='304.8' elevationIndex='0' visible='false'/>
+  <level id='level8' name='Level 3-attic' elevation='1402.08' floorThickness='15.24' height='304.8' elevationIndex='0' visible='false'/>
+  <level id='level9' name='Tank level' elevation='1478.28' floorThickness='15.24' height='152.4' elevationIndex='0' visible='false'/>
+  <doorOrWindow level='level1' catalogId='eTeks#door' name='Door' creator='eTeks' model='1' x='106.025154' y='553.3467' angle='4.712389' width='91.43994' depth='29.678106' height='208.28' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level1' catalogId='eTeks#railing' name='Railing' creator='eTeks' model='3' x='172.3238' y='36.29972' angle='1.5707964' width='60.96' depth='5.08' height='457.19998' modelSize='6781' movable='false'/>
+  <pieceOfFurniture level='level1' catalogId='eTeks#sink' name='Sink' creator='eTeks' model='5' x='807.3264' y='994.8479' angle='1.5707964' width='120.015015' depth='63.5' height='106.045' modelSize='41849' movable='false'/>
+  <pieceOfFurniture level='level1' catalogId='eTeks#cooker' name='Cooker' creator='eTeks' model='7' x='806.4673' y='790.133' angle='1.5707963' width='59.68994' depth='62.22998' height='85.09' modelSize='42013'/>
+  <pieceOfFurniture level='level1' catalogId='eTeks#fridge' name='Fridge' creator='eTeks' model='9' x='806.0564' y='730.44305' angle='4.712389' width='59.68994' depth='66.04004' height='85.09' modelSize='13397'/>
+  <pieceOfFurniture level='level1' catalogId='Scopia#suv' name='SUV' creator='Scopia' model='11/suv.obj' x='194.1993' y='1049.4106' angle='3.1447601' width='209.2325' depth='463.23242' height='162.56' modelMirrored='true' modelSize='274662'/>
+  <pieceOfFurniture level='level1' catalogId='Kator Legaz#scooter' name='Scooter' creator='Kator Legaz' model='13/scooter.obj' x='827.30273' y='1199.7319' angle='4.712389' width='98.74243' depth='174.9425' height='125.729996' modelMirrored='true' modelRotation='-1 0 0 0 1 0 0 0 -1' modelSize='1035468'/>
+  <pieceOfFurniture level='level1' catalogId='eTeks#hood' name='Hood' creator='eTeks' model='15' x='809.7534' y='788.4556' elevation='155.8925' angle='1.7484555E-7' width='60.007446' depth='52.704956' height='93.979996' modelSize='10536'/>
+  <pieceOfFurniture level='level1' catalogId='eTeks#kitchenUpperCabinet' name='Kitchen upper cabinet' creator='eTeks' model='17' x='819.0739' y='1084.8419' elevation='145.0975' angle='1.5707964' width='60.00757' depth='40.005005' height='86.042496' modelMirrored='true' modelSize='11850'/>
+  <pieceOfFurniture level='level1' catalogId='Pencilart#dishwasher' name='Dishwasher' creator='Pencilart' model='19/dishwasher.obj' x='808.1202' y='904.8367' angle='1.5707963' width='60.007446' depth='61.912476' height='82.8675' modelSize='9467'/>
+  <doorOrWindow level='level2' catalogId='PeterSmolik#door1' name='Door' creator='Peter Smolik' model='21/door1.obj' x='179.70645' y='129.26117' angle='4.712389' width='91.44' depth='19.845406' height='213.67749' modelMirrored='true' modelRotation='-1 0 0 0 1 0 0 0 -1' modelSize='1857741' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level1' catalogId='eTeks#railing' name='Railing' creator='eTeks' model='3' x='884.48315' y='357.88538' angle='3.1415927' width='60.96' depth='5.079956' height='457.19998' modelMirrored='true' modelSize='6781' movable='false'/>
+  <pieceOfFurniture level='level3' catalogId='eTeks#kitchenUpperCabinet' name='Kitchen upper cabinet' creator='eTeks' model='17' x='820.05225' y='1108.3672' elevation='145.0975' angle='1.563099' width='60.00757' depth='40.005005' height='86.042496' modelMirrored='true' modelSize='11850'/>
+  <doorOrWindow level='level5' catalogId='OlaKristianHoff#fixed_window_2x2' name='Fixed small window' creator='Ola-Kristian Hoff' model='23/fixed_window_2x2.obj' x='414.49283' y='73.374435' elevation='152.4' angle='3.1415927' width='60.960056' depth='15.732362' height='60.96' modelMirrored='true' modelSize='9276' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level5' catalogId='OlaKristianHoff#fixed_window_2x2' name='Fixed small window' creator='Ola-Kristian Hoff' model='23/fixed_window_2x2.obj' x='248.79027' y='73.77351' elevation='152.4' angle='3.1333761' width='60.959995' depth='15.732362' height='60.96' modelMirrored='true' modelSize='9276' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level1' catalogId='Scopia#elevator' name='Elevator' creator='Scopia' model='25/elevator.obj' x='165.17859' y='692.0253' angle='1.5707963' width='147.31999' depth='152.40002' height='254.0' modelMirrored='true' modelSize='70362' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level3' catalogId='Reallusion#sitFemale01' name='Sitting female' creator='Reallusion' model='27/sitFemale01.obj' x='132.98358' y='1020.1559' angle='1.7484555E-7' width='56.19751' depth='81.59747' height='75.8825' modelMirrored='true' modelSize='697714'/>
+  <pieceOfFurniture level='level5' catalogId='Reallusion#sitMale03' name='Sitting male' creator='Reallusion' model='29/sitMale03.obj' x='62.519714' y='1189.8333' width='67.62749' depth='88.264946' height='92.71' modelMirrored='true' modelSize='574704'/>
+  <pieceOfFurniture level='level3' catalogId='Reallusion#male03' name='Male' creator='Reallusion' model='31/male03.obj' x='204.27063' y='1084.316' angle='1.7484555E-7' width='55.5625' depth='39.05249' height='184.15' modelMirrored='true' modelSize='1089484'/>
+  <pieceOfFurniture level='level7' catalogId='Scopia#small_lavatory' name='Small lavatory' creator='Scopia' model='33/small_lavatory.obj' x='379.21588' y='241.04466' elevation='49.8475' angle='4.712389' width='49.8475' depth='42.545' height='34.29' modelSize='581724' movable='false'/>
+  <pieceOfFurniture level='level7' catalogId='Scopia#small_lavatory' name='Small lavatory' creator='Scopia' model='33/small_lavatory.obj' x='437.53473' y='595.75134' elevation='49.8475' angle='4.712389' width='49.8475' depth='42.545' height='34.29' modelSize='581724' movable='false'/>
+  <doorOrWindow level='level7' catalogId='eTeks#door' name='Door' creator='eTeks' model='1' x='349.40564' y='125.63636' angle='1.5707964' width='76.2' depth='19.785654' height='208.28' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level7' catalogId='eTeks#door' name='Door' creator='eTeks' model='1' x='190.4268' y='507.92084' angle='4.712389' width='91.44' depth='29.678106' height='208.28' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level9' catalogId='OlaKristianHoff#solar_panel_140W' name='Solar panel' creator='Ola-Kristian Hoff' model='35/solar_panel_140W.obj' x='531.3014' y='263.27682' angle='5.7595863' width='66.674995' depth='107.314995' height='107.314995' modelRotation='1 0 0 0 0.70710677 -0.70710677 0 0.70710677 0.70710677' modelSize='10659'/>
+  <pieceOfFurniture level='level9' catalogId='OlaKristianHoff#solar_panel_140W' name='Solar panel' creator='Ola-Kristian Hoff' model='35/solar_panel_140W.obj' x='472.94855' y='295.5567' angle='5.7595863' width='66.674995' depth='107.314995' height='107.314995' modelRotation='1 0 0 0 0.70710677 -0.70710677 0 0.70710677 0.70710677' modelSize='10659'/>
+  <pieceOfFurniture level='level9' catalogId='OlaKristianHoff#solar_panel_140W' name='Solar panel' creator='Ola-Kristian Hoff' model='35/solar_panel_140W.obj' x='415.77554' y='329.88013' angle='5.7595863' width='66.674995' depth='107.314995' height='107.314995' modelRotation='1 0 0 0 0.70710677 -0.70710677 0 0.70710677 0.70710677' modelSize='10659'/>
+  <pieceOfFurniture level='level9' catalogId='Reallusion#male03' name='Male' creator='Reallusion' model='31/male03.obj' x='562.3815' y='156.6732' angle='4.1887903' width='55.5625' depth='39.052498' height='184.15' modelSize='1089484'/>
+  <pieceOfFurniture level='level1' catalogId='OlaKristianHoff#window_shutter' name='Window shutter' creator='Ola-Kristian Hoff' model='37/window_shutter.obj' x='763.9111' y='4.0136414' elevation='92.075' width='297.18' depth='0.3175' height='213.35999' modelSize='11868' movable='false'/>
+  <pieceOfFurniture level='level1' catalogId='OlaKristianHoff#window_shutter' name='Window shutter' creator='Ola-Kristian Hoff' model='37/window_shutter.obj' x='763.911' y='4.0136414' elevation='427.35498' width='297.18' depth='0.3175' height='213.36' modelSize='11868' movable='false'/>
+  <pieceOfFurniture level='level1' catalogId='OlaKristianHoff#window_shutter' name='Window shutter' creator='Ola-Kristian Hoff' model='37/window_shutter.obj' x='766.5454' y='-3.9238586' elevation='427.35498' angle='3.1415927' width='297.18' depth='0.3175' height='213.36' modelSize='11868' movable='false'/>
+  <pieceOfFurniture level='level1' catalogId='OlaKristianHoff#window_shutter' name='Window shutter' creator='Ola-Kristian Hoff' model='37/window_shutter.obj' x='766.48804' y='-3.9238586' elevation='92.075005' angle='3.1415927' width='297.18' depth='0.3175' height='213.36' modelSize='11868' movable='false'/>
+  <doorOrWindow level='level1' catalogId='eTeks#fixedWindow85x123' name='Fixed window' creator='eTeks' model='39' x='935.08203' y='1057.1749' elevation='91.44' angle='4.712389' width='363.22' depth='7.62075' height='91.44' heightInPlan='91.439995' modelSize='2198' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level1' catalogId='eTeks#fixedWindow85x123' name='Fixed window' creator='eTeks' model='39' x='935.08203' y='1045.2025' elevation='396.24' angle='4.712389' width='381.0' depth='7.62075' height='121.92' modelSize='2198' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level1' catalogId='eTeks#fixedWindow85x123' name='Fixed window' creator='eTeks' model='39' x='-16.533775' y='1074.1481' elevation='91.44' angle='4.712389' width='363.22' depth='7.62' height='91.44' modelSize='2198' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level1' catalogId='eTeks#fixedWindow85x123' name='Fixed window' creator='eTeks' model='39' x='-16.533775' y='1062.1757' elevation='396.24' angle='4.712389' width='381.0' depth='7.62' height='121.92' modelSize='2198' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level2' catalogId='eTeks#sliderWindow126x200' name='Slider window' creator='eTeks' model='41' x='352.31238' y='74.90873' elevation='91.44' angle='1.7484555E-7' width='243.83997' depth='16.258781' height='91.44' modelMirrored='true' modelSize='7950' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level3' catalogId='Scopia#window_2x1_with_sliders' name='Sliding window' creator='Scopia' model='43/window_2x1_with_sliders.obj' x='710.415' y='1146.1439' elevation='91.44' angle='3.1415927' width='182.88' depth='15.240723' height='182.88' modelMirrored='true' modelSize='18174' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level3' catalogId='Scopia#window_2x1_with_sliders' name='Sliding window' creator='Scopia' model='43/window_2x1_with_sliders.obj' x='461.10938' y='1146.1439' elevation='91.44' angle='3.1415927' width='182.88' depth='15.240723' height='182.88' modelMirrored='true' modelSize='18174' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level7' catalogId='OlaKristianHoff#fixed_window_2x2' name='Fixed small window' creator='Ola-Kristian Hoff' model='23/fixed_window_2x2.obj' x='269.19394' y='76.0277' elevation='160.9725' angle='0.0040296274' width='60.0075' depth='15.732362' height='60.0075' modelSize='9276' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level7' catalogId='eTeks#fixedWindow85x123' name='Fixed window' creator='eTeks' model='39' x='521.1263' y='563.20764' elevation='91.44' angle='3.1415927' width='121.92' depth='15.240749' height='91.44' modelSize='2198' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level7' catalogId='eTeks#fixedWindow85x123' name='Fixed window' creator='eTeks' model='39' x='438.4225' y='74.10261' elevation='91.44' angle='0.0031082667' width='121.92' depth='15.240749' height='91.44' modelSize='2198' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level7' catalogId='eTeks#fixedWindow85x123' name='Fixed window' creator='eTeks' model='39' x='594.713' y='459.7032' elevation='91.44' angle='1.5707964' width='121.92' depth='15.240749' height='91.44' modelSize='2198' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level7' catalogId='Bettinelli#lit' name='Bed' creator='Gaël Bettinelli' model='45/lit.obj' x='416.81012' y='471.92633' angle='4.712389' width='167.3225' depth='220.0275' height='78.4225' modelSize='49039'/>
+  <pieceOfFurniture level='level7' catalogId='Nictac#tavoloFratino' name='Table' creator='Nictac' model='47' x='461.52582' y='120.208534' angle='3.1415927' width='109.854996' depth='70.167496' height='74.93' modelSize='141352'/>
+  <pieceOfFurniture level='level7' catalogId='Scopia#white_kitchen_chair' name='Chair' creator='Scopia' model='49/white_kitchen_chair.obj' x='463.70148' y='176.56479' angle='1.5707964' width='42.545' depth='46.989998' height='86.042496' modelSize='244041'/>
+  <pieceOfFurniture level='level7' catalogId='Nictac#tavoloFratino' name='Table' creator='Nictac' model='47' x='552.0093' y='293.94736' angle='1.5707964' width='109.854996' depth='70.167496' height='74.93' modelSize='141352'/>
+  <pieceOfFurniture level='level5' catalogId='Scopia#small_lavatory' name='Small lavatory' creator='Scopia' model='33/small_lavatory.obj' x='312.16705' y='267.08817' elevation='49.8475' angle='1.7484555E-7' width='49.847473' depth='42.54492' height='34.29' modelMirrored='true' modelSize='581724' movable='false'/>
+  <pieceOfFurniture level='level5' catalogId='Scopia#small_lavatory' name='Small lavatory' creator='Scopia' model='33/small_lavatory.obj' x='492.44278' y='268.01346' elevation='49.8475' angle='1.7484555E-7' width='49.847473' depth='42.54492' height='34.29' modelMirrored='true' modelSize='581724' movable='false'/>
+  <doorOrWindow level='level7' catalogId='Scopia#window_2x1_with_sliders' name='Sliding window' creator='Scopia' model='43/window_2x1_with_sliders.obj' x='439.05286' y='74.10456' elevation='228.59999' angle='0.0031082667' width='121.92' depth='15.240749' height='60.96' modelSize='18174' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level1' catalogId='RogerLonqueux#portail' name='Gate' creator='Roger Lonqueux' model='51' x='155.25302' y='1307.6108' elevation='9.8425' angle='1.7484555E-7' width='304.80005' depth='10.160034' height='209.8675' modelMirrored='true' modelSize='28006' movable='false'/>
+  <pieceOfFurniture level='level1' catalogId='RogerLonqueux#portail' name='Gate' creator='Roger Lonqueux' model='51' x='654.48096' y='1264.7698' elevation='9.8425' angle='6.2831836' width='152.3999' depth='7.619995' height='209.8675' modelMirrored='true' modelSize='28006' movable='false'/>
+  <doorOrWindow level='level5' catalogId='eTeks#door' name='Door' creator='eTeks' model='1' x='187.19437' y='565.6142' angle='4.712389' width='91.43991' depth='29.678106' height='208.28' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level3' catalogId='OlaKristianHoff#fixed_window_2x2' name='Fixed small window' creator='Ola-Kristian Hoff' model='23/fixed_window_2x2.obj' x='568.2464' y='73.374466' elevation='152.4' angle='3.1415927' width='60.95996' depth='15.732362' height='60.96' modelSize='9276' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level3' catalogId='OlaKristianHoff#fixed_window_2x2' name='Fixed small window' creator='Ola-Kristian Hoff' model='23/fixed_window_2x2.obj' x='769.88446' y='73.86593' elevation='152.4' angle='1.7484555E-7' width='60.960083' depth='15.732362' height='60.96' modelSize='9276' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level1' catalogId='Jabberwalky#curvedTVForTable' name='Curved TV' creator='Jabberwalky' model='53/curvedTVForTable.obj' x='427.30988' y='473.99133' elevation='91.44' width='126.365005' depth='18.097492' height='80.01' modelMirrored='true' modelSize='9687'/>
+  <pieceOfFurniture level='level1' catalogId='eTeks#dresser' name='Dresser' creator='eTeks' model='55' x='419.91858' y='470.4826' width='169.86253' depth='49.847496' height='64.77' modelMirrored='true' modelSize='22106'/>
+  <pieceOfFurniture level='level3' catalogId='eTeks#toiletUnit' name='Toilet unit' creator='eTeks' model='57' x='527.60175' y='124.509705' angle='1.7484555E-7' width='40.005005' depth='80.01001' height='62.23' modelSize='125874' movable='false'/>
+  <pieceOfFurniture level='level3' catalogId='Snduc#robinet' name='Faucet' creator='Snduc' model='59' x='697.9244' y='91.602646' elevation='91.44' angle='6.283185' width='5.079956' depth='14.287476' height='12.065' modelRotation='0 0 -1 0 1 0 1 0 0' modelSize='38781' movable='false'/>
+  <pieceOfFurniture level='level3' catalogId='Snduc#robinet' name='Faucet' creator='Snduc' model='59' x='670.6767' y='91.602646' elevation='91.44' angle='6.283185' width='5.079956' depth='14.287476' height='12.065' modelRotation='0 0 -1 0 1 0 1 0 0' modelSize='38781' movable='false'/>
+  <pieceOfFurniture level='level3' catalogId='Scopia#small_lavatory' name='Small lavatory' creator='Scopia' model='33/small_lavatory.obj' x='527.08215' y='212.09055' elevation='49.8475' angle='4.7200885' width='49.847607' depth='42.54502' height='34.29' modelSize='581724' movable='false'/>
+  <pieceOfFurniture level='level3' catalogId='Scopia#small-urinal' name='Urinal' creator='Scopia' model='61/small-urinal.obj' x='630.32684' y='97.29027' angle='1.7484555E-7' width='33.972534' depth='26.987549' height='61.9125' modelSize='87388' movable='false'/>
+  <pieceOfFurniture level='level3' catalogId='Kator Legaz#towel-rack' name='Towel rack' creator='Kator Legaz' model='63/towel-rack.obj' x='662.52783' y='209.57207' elevation='80.01' angle='1.5707964' width='49.847534' depth='9.525024' height='10.795' modelSize='159306'/>
+  <pieceOfFurniture level='level3' catalogId='eTeks#clothesWasher' name='Clothes washer' creator='eTeks' model='65' x='808.0117' y='204.41148' angle='1.5707964' width='59.690063' depth='62.86499' height='85.09' modelMirrored='true' modelSize='24815'/>
+  <pieceOfFurniture level='level3' catalogId='Snduc#robinet' name='Faucet' creator='Snduc' model='59' x='640.39575' y='135.74603' elevation='91.44' angle='4.712389' width='5.079956' depth='14.287476' height='12.065' modelMirrored='true' modelRotation='0 0 -1 0 1 0 1 0 0' modelSize='38781' movable='false'/>
+  <pieceOfFurniture level='level3' catalogId='Scopia#small_lavatory' name='Small lavatory' creator='Scopia' model='33/small_lavatory.obj' x='529.214' y='268.75085' elevation='49.8475' angle='1.7484555E-7' width='49.847412' depth='42.545044' height='34.29' modelMirrored='true' modelSize='581724' movable='false'/>
+  <pieceOfFurniture level='level3' catalogId='eTeks#toiletUnit' name='Toilet unit' creator='eTeks' model='57' x='798.7012' y='101.242714' angle='1.5707964' width='40.005005' depth='80.01001' height='62.23' modelSize='125874' movable='false'/>
+  <pieceOfFurniture level='level3' catalogId='Reallusion#male01' name='Male' creator='Reallusion' model='67/male01.obj' x='694.0704' y='406.74512' angle='1.7484555E-7' width='60.95996' depth='40.32251' height='186.055' modelMirrored='true' modelSize='1085673'/>
+  <pieceOfFurniture level='level3' catalogId='eTeks#sink' name='Sink' creator='eTeks' model='5' x='804.43286' y='994.8479' angle='1.5707963' width='120.015' depth='63.5' height='106.045' modelSize='41849' movable='false'/>
+  <pieceOfFurniture level='level3' catalogId='eTeks#cooker' name='Cooker' creator='eTeks' model='7' x='806.4673' y='790.133' angle='1.5707963' width='59.69' depth='62.23' height='85.09' modelSize='42013'/>
+  <pieceOfFurniture level='level3' catalogId='eTeks#fridge' name='Fridge' creator='eTeks' model='9' x='807.5364' y='906.3896' angle='1.5707963' width='59.69' depth='66.04' height='85.09' modelSize='13397'/>
+  <pieceOfFurniture level='level3' catalogId='eTeks#hood' name='Hood' creator='eTeks' model='15' x='810.2814' y='788.4556' elevation='155.8925' angle='1.7484555E-7' width='60.0075' depth='52.704998' height='93.979996' modelSize='10536'/>
+  <pieceOfFurniture level='level3' catalogId='Pencilart#dishwasher' name='Dishwasher' creator='Pencilart' model='19/dishwasher.obj' x='806.7711' y='846.54083' angle='1.5707963' width='60.0075' depth='61.9125' height='82.8675' modelSize='9467'/>
+  <pieceOfFurniture level='level3' catalogId='Kator Legaz#fridge' name='Fridge' creator='Kator Legaz' model='69/fridge.obj' x='617.66986' y='1108.9961' angle='3.1415927' width='60.0075' depth='59.055' height='126.0475' modelSize='28374'/>
+  <pieceOfFurniture level='level7' catalogId='eTeks#staircase' name='Staircase' creator='eTeks' model='71' x='642.9734' y='281.53058' width='81.28' depth='289.56' height='396.24' modelMirrored='true' modelSize='13868' movable='false' staircaseCutOutShape='M0,0 v1 h1 v-1 z'/>
+  <pieceOfFurniture level='level5' catalogId='eTeks#toiletUnit' name='Toilet unit' creator='eTeks' model='57' x='211.15266' y='125.24179' angle='1.7484555E-7' width='40.005005' depth='80.01001' height='62.23' modelSize='125874' movable='false'/>
+  <pieceOfFurniture level='level5' catalogId='Scopia#small-urinal' name='Urinal' creator='Scopia' model='61/small-urinal.obj' x='287.06155' y='94.958435' angle='1.7484555E-7' width='33.972473' depth='26.987488' height='61.9125' modelSize='87388' movable='false'/>
+  <pieceOfFurniture level='level5' catalogId='Scopia#small_lavatory' name='Small lavatory' creator='Scopia' model='33/small_lavatory.obj' x='303.57416' y='215.67886' elevation='49.8475' angle='3.1415927' width='49.847473' depth='42.544983' height='34.29' modelSize='581724' movable='false'/>
+  <pieceOfFurniture level='level5' catalogId='Snduc#robinet' name='Faucet' creator='Snduc' model='59' x='192.56947' y='201.59628' elevation='60.96' angle='4.712389' width='5.080017' depth='14.287476' height='12.065' modelRotation='0 0 -1 0 1 0 1 0 0' modelSize='38781' movable='false'/>
+  <pieceOfFurniture level='level5' catalogId='Snduc#robinet' name='Faucet' creator='Snduc' model='59' x='320.032' y='139.14592' elevation='91.44' angle='1.5707843' width='5.080017' depth='14.287476' height='12.065' modelRotation='0 0 -1 0 1 0 1 0 0' modelSize='38781' movable='false'/>
+  <pieceOfFurniture level='level5' catalogId='eTeks#toiletUnit' name='Toilet unit' creator='eTeks' model='57' x='481.68707' y='104.17196' angle='1.5707963' width='40.005005' depth='80.01001' height='62.23' modelSize='125874' movable='false'/>
+  <pieceOfFurniture level='level5' catalogId='Snduc#robinet' name='Faucet' creator='Snduc' model='59' x='345.9895' y='90.41873' elevation='91.44' angle='6.11146E-6' width='5.079956' depth='14.287506' height='12.065' modelRotation='0 0 -1 0 1 0 1 0 0' modelSize='38781' movable='false'/>
+  <pieceOfFurniture level='level5' catalogId='Snduc#robinet' name='Faucet' creator='Snduc' model='59' x='318.74188' y='90.41873' elevation='91.44' angle='6.11146E-6' width='5.079956' depth='14.287506' height='12.065' modelRotation='0 0 -1 0 1 0 1 0 0' modelSize='38781' movable='false'/>
+  <pieceOfFurniture level='level5' catalogId='Kator Legaz#towel-rack' name='Towel rack' creator='Kator Legaz' model='63/towel-rack.obj' x='342.9502' y='196.90201' elevation='80.01' angle='4.7123885' width='49.847473' depth='9.524994' height='10.795' modelSize='159306'/>
+  <pieceOfFurniture level='level5' catalogId='Reallusion#male01' name='Male' creator='Reallusion' model='67/male01.obj' x='413.95117' y='181.298' angle='4.712389' width='60.960022' depth='40.32251' height='186.055' modelSize='1085673'/>
+  <pieceOfFurniture level='level5' catalogId='eTeks#clothesWasher' name='Clothes washer' creator='eTeks' model='65' x='490.6965' y='199.37082' angle='3.1415927' width='59.690002' depth='62.86499' height='85.09' modelSize='24815'/>
+  <pieceOfFurniture level='level5' catalogId='eTeks#staircase' name='Staircase' creator='eTeks' model='71' x='48.033047' y='248.90303' width='81.28' depth='365.76' height='396.24' modelMirrored='true' modelSize='13868' movable='false' staircaseCutOutShape='M0,0 v1 h1 v-1 z'/>
+  <pieceOfFurniture level='level1' catalogId='OlaKristianHoff#staircase_180_landing' name='Half landing staircase' creator='Ola-Kristian Hoff' model='73/staircase_180_landing.obj' x='87.23381' y='249.56317' width='165.09999' depth='365.76' height='579.12' modelSize='126177' movable='false' staircaseCutOutShape='M0,0 v0.9 h0.5 v0.1 h0.5 v-1 z'/>
+  <pieceOfFurniture level='level7' catalogId='Snduc#robinet' name='Faucet' creator='Snduc' model='59' x='204.28949' y='98.72475' elevation='91.44' angle='4.712389' width='5.08' depth='14.287499' height='12.065' modelMirrored='true' modelRotation='0 0 -1 0 1 0 1 0 0' modelSize='38781' movable='false'/>
+  <pieceOfFurniture level='level7' catalogId='Snduc#robinet' name='Faucet' creator='Snduc' model='59' x='204.28949' y='125.97238' elevation='91.44' angle='4.712389' width='5.08' depth='14.287499' height='12.065' modelMirrored='true' modelRotation='0 0 -1 0 1 0 1 0 0' modelSize='38781' movable='false'/>
+  <pieceOfFurniture level='level7' catalogId='eTeks#toiletUnit' name='Toilet unit' creator='eTeks' model='57' x='216.46515' y='226.03246' angle='3.1415927' width='40.005' depth='80.01' height='62.23' modelMirrored='true' modelSize='125874' movable='false'/>
+  <pieceOfFurniture level='level7' catalogId='Kator Legaz#towel-rack' name='Towel rack' creator='Kator Legaz' model='63/towel-rack.obj' x='309.81482' y='88.44614' elevation='80.01' angle='1.7484555E-7' width='49.8475' depth='9.525' height='10.795' modelMirrored='true' modelSize='159306'/>
+  <pieceOfFurniture level='level5' catalogId='eTeks#hood' name='Hood' creator='eTeks' model='15' x='807.6105' y='789.07' elevation='155.8925' angle='1.7484555E-7' width='60.0075' depth='52.704998' height='93.979996' modelSize='10536'/>
+  <pieceOfFurniture level='level5' catalogId='Pencilart#dishwasher' name='Dishwasher' creator='Pencilart' model='19/dishwasher.obj' x='806.7711' y='846.54083' angle='1.5707963' width='60.0075' depth='61.9125' height='82.8675' modelSize='9467'/>
+  <pieceOfFurniture level='level5' catalogId='eTeks#fridge' name='Fridge' creator='eTeks' model='9' x='807.5364' y='906.3896' angle='1.5707963' width='59.69' depth='66.04' height='85.09' modelSize='13397'/>
+  <pieceOfFurniture level='level5' catalogId='eTeks#sink' name='Sink' creator='eTeks' model='5' x='805.86383' y='993.95996' angle='1.5707963' width='120.015' depth='63.5' height='106.045' modelSize='41849' movable='false'/>
+  <pieceOfFurniture level='level5' catalogId='Kator Legaz#fridge' name='Fridge' creator='Kator Legaz' model='69/fridge.obj' x='807.8566' y='731.88055' angle='1.563099' width='60.0075' depth='59.055' height='126.0475' modelSize='28374'/>
+  <doorOrWindow level='level5' catalogId='eTeks#door' name='Door' creator='eTeks' model='1' x='840.0476' y='471.34952' angle='1.5707964' width='91.44' depth='29.678106' height='208.28' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level3' catalogId='eTeks#door' name='Door' creator='eTeks' model='1' x='842.7185' y='283.7548' angle='1.5707964' width='76.2' depth='29.678106' height='208.28' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level2' catalogId='eTeks#desk' name='Desk' creator='eTeks' model='75' x='562.7719' y='151.3879' angle='4.712389' width='140.0175' depth='67.945' height='77.1525' modelMirrored='true' modelSize='16760'/>
+  <pieceOfFurniture level='level2' catalogId='Scopia#chair4' name='Chair' creator='Scopia' model='77/chair4.obj' x='620.8744' y='156.25502' angle='1.5707964' width='48.26' depth='44.1325' height='88.265' modelMirrored='true' modelSize='70404'/>
+  <doorOrWindow level='level3' catalogId='eTeks#door' name='Door' creator='eTeks' model='1' x='699.53503' y='238.94058' angle='3.1415925' width='76.19995' depth='19.785645' height='208.28' modelMirrored='true' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level3' catalogId='eTeks#door' name='Door' creator='eTeks' model='1' x='609.20496' y='238.94058' angle='3.1415927' width='76.19995' depth='19.785654' height='208.28' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level1' catalogId='eTeks#door' name='Door' creator='eTeks' model='1' x='841.50977' y='289.41336' angle='1.5707964' width='76.2' depth='29.678106' height='208.28' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level5' catalogId='eTeks#door' name='Door' creator='eTeks' model='1' x='229.71817' y='237.2779' angle='3.1415927' width='76.2' depth='19.785654' height='208.28' modelMirrored='true' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level5' catalogId='eTeks#door' name='Door' creator='eTeks' model='1' x='378.3821' y='237.42708' angle='3.1471763' width='76.2' depth='19.785654' height='208.28' modelMirrored='true' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level1' catalogId='eTeks#door' name='Door' creator='eTeks' model='1' x='496.32' y='373.05338' angle='1.5644263' width='91.44' depth='19.785654' height='208.28' modelMirrored='true' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level3' catalogId='eTeks#door' name='Door' creator='eTeks' model='1' x='495.48782' y='367.7692' angle='1.5707964' width='91.44' depth='19.785654' height='208.28' modelMirrored='true' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level5' catalogId='eTeks#door' name='Door' creator='eTeks' model='1' x='402.67075' y='786.9145' angle='1.7484555E-7' width='76.2' depth='19.785654' height='208.28' modelMirrored='true' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level5' catalogId='eTeks#door' name='Door' creator='eTeks' model='1' x='527.9063' y='374.1102' angle='4.7212214' width='91.44' depth='19.785654' height='208.28' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level3' catalogId='eTeks#door' name='Door' creator='eTeks' model='1' x='260.81033' y='940.9316' angle='4.712389' width='91.44' depth='29.678106' height='208.28' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level2' catalogId='PeterSmolik#door1' name='Door' creator='Peter Smolik' model='21/door1.obj' x='444.66342' y='607.4755' width='76.2' depth='13.23052' height='213.67749' modelMirrored='true' modelRotation='-1 0 0 0 1 0 0 0 -1' modelSize='1857741' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level2' catalogId='Scopia#window_2x1_with_sliders' name='Sliding window' creator='Scopia' model='43/window_2x1_with_sliders.obj' x='100.20734' y='998.3865' elevation='76.2' angle='4.712389' width='182.88' depth='15.240749' height='121.92' modelMirrored='true' modelSize='18174' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level2' catalogId='Scopia#window_2x1_with_sliders' name='Sliding window' creator='Scopia' model='43/window_2x1_with_sliders.obj' x='346.41406' y='1145.6328' elevation='76.2' angle='3.1415927' width='182.88' depth='15.240749' height='121.92' modelMirrored='true' modelSize='18174' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level3' catalogId='OlaKristianHoff#fixed_window_2x2' name='Fixed small window' creator='Ola-Kristian Hoff' model='23/fixed_window_2x2.obj' x='847.50885' y='158.82922' elevation='152.4' angle='4.7046914' width='60.96' depth='15.732362' height='60.96' modelSize='9276' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level1' catalogId='eTeks#door' name='Door' creator='eTeks' model='1' x='699.53503' y='238.94058' angle='3.1415927' width='76.19995' depth='19.785645' height='208.28' modelMirrored='true' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level1' catalogId='Kator Legaz#towel-rack' name='Towel rack' creator='Kator Legaz' model='63/towel-rack.obj' x='662.52783' y='209.57207' elevation='80.01' angle='1.5707963' width='49.847504' depth='9.525024' height='10.795' modelSize='159306'/>
+  <pieceOfFurniture level='level1' catalogId='eTeks#clothesWasher' name='Clothes washer' creator='eTeks' model='65' x='808.0117' y='204.41148' angle='1.5707963' width='59.690002' depth='62.86499' height='85.09' modelMirrored='true' modelSize='24815'/>
+  <pieceOfFurniture level='level1' catalogId='eTeks#toiletUnit' name='Toilet unit' creator='eTeks' model='57' x='798.7012' y='101.242714' angle='1.5707963' width='40.005005' depth='80.01001' height='62.23' modelSize='125874' movable='false'/>
+  <doorOrWindow level='level1' catalogId='OlaKristianHoff#fixed_window_2x2' name='Fixed small window' creator='Ola-Kristian Hoff' model='23/fixed_window_2x2.obj' x='763.3338' y='74.153915' elevation='152.4' angle='3.1415927' width='60.96' depth='15.732362' height='60.96' modelSize='9276' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level1' catalogId='Snduc#robinet' name='Faucet' creator='Snduc' model='59' x='697.9244' y='91.602646' elevation='91.44' angle='1.7484555E-7' width='5.079956' depth='14.287506' height='12.065' modelRotation='0 0 -1 0 1 0 1 0 0' modelSize='38781' movable='false'/>
+  <pieceOfFurniture level='level1' catalogId='Snduc#robinet' name='Faucet' creator='Snduc' model='59' x='670.6767' y='91.602646' elevation='91.44' angle='1.7484555E-7' width='5.079956' depth='14.287506' height='12.065' modelRotation='0 0 -1 0 1 0 1 0 0' modelSize='38781' movable='false'/>
+  <doorOrWindow level='level1' catalogId='OlaKristianHoff#fixed_window_2x2' name='Fixed small window' creator='Ola-Kristian Hoff' model='23/fixed_window_2x2.obj' x='847.50885' y='158.82922' elevation='152.4' angle='4.7046914' width='60.96' depth='15.732362' height='60.96' modelSize='9276' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level1' catalogId='OlaKristianHoff#fixed_window_2x2' name='Fixed small window' creator='Ola-Kristian Hoff' model='23/fixed_window_2x2.obj' x='568.2464' y='73.374466' elevation='152.4' angle='3.1415927' width='60.96' depth='15.732362' height='60.96' modelSize='9276' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level1' catalogId='Scopia#small-urinal' name='Urinal' creator='Scopia' model='61/small-urinal.obj' x='630.32684' y='97.29027' angle='1.7484555E-7' width='33.9725' depth='26.9875' height='61.9125' modelSize='87388' movable='false'/>
+  <pieceOfFurniture level='level1' catalogId='eTeks#toiletUnit' name='Toilet unit' creator='eTeks' model='57' x='527.60175' y='124.509705' angle='1.7484555E-7' width='40.005' depth='80.01' height='62.23' modelSize='125874' movable='false'/>
+  <pieceOfFurniture level='level1' catalogId='Snduc#robinet' name='Faucet' creator='Snduc' model='59' x='640.39575' y='135.74603' elevation='91.44' angle='4.712389' width='5.08' depth='14.287499' height='12.065' modelMirrored='true' modelRotation='0 0 -1 0 1 0 1 0 0' modelSize='38781' movable='false'/>
+  <pieceOfFurniture level='level1' catalogId='Scopia#small_lavatory' name='Small lavatory' creator='Scopia' model='33/small_lavatory.obj' x='527.08215' y='212.09055' elevation='49.8475' angle='4.7200885' width='49.8475' depth='42.545' height='34.29' modelSize='581724' movable='false'/>
+  <pieceOfFurniture level='level1' catalogId='Scopia#small_lavatory' name='Small lavatory' creator='Scopia' model='33/small_lavatory.obj' x='529.214' y='268.75085' elevation='49.8475' angle='1.7484555E-7' width='49.8475' depth='42.545' height='34.29' modelMirrored='true' modelSize='581724' movable='false'/>
+  <doorOrWindow level='level1' catalogId='eTeks#door' name='Door' creator='eTeks' model='1' x='610.30634' y='238.94058' angle='3.1415927' width='76.2' depth='19.785654' height='208.28' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level2' catalogId='eTeks#toiletUnit' name='Toilet unit' creator='eTeks' model='57' x='698.90564' y='101.242714' angle='4.712389' width='40.005' depth='80.01' height='62.23' modelMirrored='true' modelSize='125874' movable='false'/>
+  <pieceOfFurniture level='level2' catalogId='Snduc#robinet' name='Faucet' creator='Snduc' model='59' x='799.68243' y='91.602646' elevation='91.44' angle='1.7484555E-7' width='5.08' depth='14.287499' height='12.065' modelMirrored='true' modelRotation='0 0 -1 0 1 0 1 0 0' modelSize='38781' movable='false'/>
+  <pieceOfFurniture level='level2' catalogId='Snduc#robinet' name='Faucet' creator='Snduc' model='59' x='826.9301' y='91.602646' elevation='91.44' angle='1.7484555E-7' width='5.08' depth='14.287499' height='12.065' modelMirrored='true' modelRotation='0 0 -1 0 1 0 1 0 0' modelSize='38781' movable='false'/>
+  <doorOrWindow level='level2' catalogId='OlaKristianHoff#fixed_window_2x2' name='Fixed small window' creator='Ola-Kristian Hoff' model='23/fixed_window_2x2.obj' x='847.50885' y='158.82922' elevation='152.4' angle='4.7046914' width='60.96' depth='15.732362' height='60.96' modelSize='9276' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level2' catalogId='Kator Legaz#towel-rack' name='Towel rack' creator='Kator Legaz' model='63/towel-rack.obj' x='835.079' y='209.57207' elevation='80.01' angle='4.712389' width='49.8475' depth='9.525' height='10.795' modelMirrored='true' modelSize='159306'/>
+  <doorOrWindow level='level2' catalogId='eTeks#door' name='Door' creator='eTeks' model='1' x='798.0718' y='238.94058' angle='3.1415927' width='76.2' depth='19.785645' height='208.28' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level2' catalogId='OlaKristianHoff#fixed_window_2x2' name='Fixed small window' creator='Ola-Kristian Hoff' model='23/fixed_window_2x2.obj' x='769.88446' y='73.86593' elevation='152.4' angle='1.7484555E-7' width='60.96' depth='15.732362' height='60.96' modelSize='9276' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level3' catalogId='eTeks#door' name='Door' creator='eTeks' model='1' x='182.59074' y='476.24445' angle='4.712389' width='91.44' depth='29.678106' height='208.28' modelMirrored='true' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level2' catalogId='eTeks#door' name='Door' creator='eTeks' model='1' x='442.46585' y='437.3987' angle='3.1415927' width='76.2' depth='19.785654' height='208.28' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level3' catalogId='eTeks#staircase' name='Staircase' creator='eTeks' model='71' x='48.033047' y='250.96704' width='81.28' depth='365.76' height='457.19998' modelMirrored='true' modelSize='13868' movable='false' staircaseCutOutShape='M0,0 v1 h1 v-1 z'/>
+  <doorOrWindow level='level3' catalogId='Scopia#elevator' name='Elevator' creator='Scopia' model='25/elevator.obj' x='170.82898' y='699.5592' angle='1.5707963' width='147.31999' depth='152.40002' height='254.0' modelMirrored='true' modelSize='70362' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level5' catalogId='Scopia#elevator' name='Elevator' creator='Scopia' model='25/elevator.obj' x='165.34756' y='699.2654' angle='1.5707963' width='147.31999' depth='152.40002' height='254.0' modelMirrored='true' modelSize='70362' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level7' catalogId='Scopia#elevator' name='Elevator' creator='Scopia' model='25/elevator.obj' x='169.41638' y='703.797' angle='1.5707963' width='147.31999' depth='152.40002' height='254.0' modelMirrored='true' modelSize='70362' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level3' catalogId='Scopia#window_2x1_with_sliders' name='Sliding window' creator='Scopia' model='43/window_2x1_with_sliders.obj' x='847.90515' y='584.3744' elevation='152.4' angle='4.712389' width='243.84' depth='15.240749' height='152.4' modelMirrored='true' modelSize='18174' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level1' catalogId='Scopia#clear_sofa' name='Clear sofa' creator='Scopia' model='79/clear_sofa.obj' x='419.58887' y='809.01715' angle='3.1415927' width='193.9925' depth='75.8825' height='80.01' modelSize='194694'/>
+  <pieceOfFurniture level='level1' catalogId='Scopia#burlap_sofa' name='Burlap sofa' creator='Scopia' model='81/burlap_sofa.obj' x='304.71243' y='686.1445' angle='4.712389' width='169.8625' depth='89.8525' height='79.6925' modelSize='821687'/>
+  <pieceOfFurniture level='level1' catalogId='eTeks#desk' name='Desk' creator='eTeks' model='75' x='392.8155' y='880.9309' width='140.0175' depth='67.945' height='77.1525' modelMirrored='true' modelSize='16760'/>
+  <pieceOfFurniture level='level1' catalogId='Scopia#chair4' name='Chair' creator='Scopia' model='77/chair4.obj' x='381.97632' y='939.0334' angle='4.712389' width='48.26' depth='44.1325' height='88.265' modelMirrored='true' modelSize='70404'/>
+  <pieceOfFurniture level='level1' catalogId='LucaPresidente#tavolo' name='Table' creator='LucaPresidente' model='83/tavolo.obj' x='757.1614' y='508.37036' angle='3.1415927' width='163.83' depth='96.52' depthInPlan='96.51999' height='78.104996' modelSize='17984'/>
+  <pieceOfFurniture level='level1' catalogId='Scopia#chair4' name='Chair' creator='Scopia' model='77/chair4.obj' x='777.4035' y='437.25595' width='48.26' depth='44.1325' height='88.265' modelMirrored='true' modelSize='70404'/>
+  <pieceOfFurniture level='level1' catalogId='Scopia#chair4' name='Chair' creator='Scopia' model='77/chair4.obj' x='703.4587' y='437.06665' width='48.26' depth='44.1325' height='88.265' modelMirrored='true' modelSize='70404'/>
+  <doorOrWindow level='level5' catalogId='Scopia#window_2x1_with_sliders' name='Sliding window' creator='Scopia' model='43/window_2x1_with_sliders.obj' x='846.0413' y='216.9113' elevation='121.92' angle='4.716337' width='182.88' depth='15.240749' height='121.92' modelSize='18174' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level5' catalogId='Scopia#window_2x1_with_sliders' name='Sliding window' creator='Scopia' model='43/window_2x1_with_sliders.obj' x='244.42917' y='1146.1449' elevation='121.92' angle='3.1415927' width='182.88' depth='15.240749' height='121.92' modelSize='18174' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level5' catalogId='Scopia#window_2x1_with_sliders' name='Sliding window' creator='Scopia' model='43/window_2x1_with_sliders.obj' x='99.83924' y='1002.43427' elevation='121.92' angle='4.7097926' width='182.88' depth='15.240749' height='121.92' modelSize='18174' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level5' catalogId='Scopia#window_2x1_with_sliders' name='Sliding window' creator='Scopia' model='43/window_2x1_with_sliders.obj' x='702.20074' y='1146.4303' elevation='121.92' angle='3.1427338' width='182.88' depth='15.240749' height='121.92' modelSize='18174' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level5' catalogId='Scopia#window_2x1_with_sliders' name='Sliding window' creator='Scopia' model='43/window_2x1_with_sliders.obj' x='731.12036' y='73.61706' elevation='121.92' angle='3.1415927' width='121.92' depth='15.240749' height='121.92' modelMirrored='true' modelSize='18174' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level3' catalogId='Scopia#window_2x1_with_sliders' name='Sliding window' creator='Scopia' model='43/window_2x1_with_sliders.obj' x='367.70642' y='73.62027' elevation='152.4' angle='3.1415927' width='121.92' depth='15.240749' height='152.4' modelMirrored='true' modelSize='18174' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level5' catalogId='Jabberwalky#curvedTVForTable' name='Curved TV' creator='Jabberwalky' model='53/curvedTVForTable.obj' x='272.2797' y='674.2375' elevation='91.44' angle='4.716348' width='126.365' depth='18.0975' height='80.01' modelMirrored='true' modelSize='9687'/>
+  <pieceOfFurniture level='level5' catalogId='eTeks#dresser' name='Dresser' creator='eTeks' model='55' x='289.5611' y='692.9901' angle='4.716348' width='169.8625' depth='49.8475' height='64.77' modelMirrored='true' modelSize='22106'/>
+  <doorOrWindow level='level1' catalogId='Scopia#window_2x1_with_sliders' name='Sliding window' creator='Scopia' model='43/window_2x1_with_sliders.obj' x='338.65366' y='74.39972' elevation='91.44' angle='1.7484555E-7' width='182.88' depth='15.240749' height='91.44' modelMirrored='true' modelSize='18174' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level1' catalogId='eTeks#fixedWindow85x123' name='Fixed window' creator='eTeks' model='39' x='179.32303' y='169.76306' elevation='91.44' angle='1.5707964' width='91.44' depth='15.240749' height='91.44' modelSize='2198' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level5' catalogId='eTeks#cooker' name='Cooker' creator='eTeks' model='7' x='806.4673' y='790.133' angle='1.5707963' width='59.69' depth='62.23' height='85.09' modelSize='42013'/>
+  <doorOrWindow level='level5' catalogId='Scopia#window_2x1_with_sliders' name='Sliding window' creator='Scopia' model='43/window_2x1_with_sliders.obj' x='845.23425' y='624.2698' elevation='121.92' angle='4.712389' width='121.92' depth='15.240749' height='121.92' modelSize='18174' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level1' catalogId='eTeks#fixedWindow85x123' name='Fixed window' creator='eTeks' model='39' x='98.90018' y='556.0939' elevation='259.08' angle='4.712389' width='91.44' depth='15.240749' height='91.44' modelSize='2198' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level1' catalogId='eTeks#staircase' name='Staircase' creator='eTeks' model='71' x='295.97852' y='478.0758' angle='1.5760285' width='66.04' depth='222.25' height='331.47' modelSize='13868' movable='false' staircaseCutOutShape='M0,0 v1 h1 v-1 z'/>
+  <pieceOfFurniture level='level1' catalogId='Kator Legaz#female-01-casual-clothing' name='Female' creator='Kator Legaz' model='85/female-01-casual-clothing.obj' x='756.77856' y='804.8181' angle='4.712389' width='47.625' depth='37.1475' height='169.8625' modelSize='964490'/>
+  <pieceOfFurniture level='level1' catalogId='Kator Legaz#female-01-casual-clothing' name='Female' creator='Kator Legaz' model='85/female-01-casual-clothing.obj' x='757.0027' y='970.50244' angle='4.712389' width='47.625' depth='37.1475' height='169.8625' modelSize='964490'/>
+  <pieceOfFurniture level='level1' catalogId='Kator Legaz#scooter' name='Scooter' creator='Kator Legaz' model='13/scooter.obj' x='495.8178' y='1203.9684' angle='4.712389' width='98.7425' depth='174.9425' height='125.729996' modelMirrored='true' modelRotation='-1 0 0 0 1 0 0 0 -1' modelSize='1035468'/>
+  <pieceOfFurniture level='level1' catalogId='Blend Swap CC-0#deer' name='Deer' creator='Sizzler' model='87/deer.obj' x='355.09897' y='1104.3369' angle='2.6179938' width='26.9875' depth='60.0075' height='121.92' modelMirrored='true' modelSize='163904'/>
+  <pieceOfFurniture level='level1' catalogId='eTeks#kitchenUpperCabinet' name='Kitchen upper cabinet' creator='eTeks' model='17' x='819.0739' y='844.8118' elevation='145.0975' angle='1.5707964' width='60.0075' depth='40.005' height='86.042496' modelMirrored='true' modelSize='11850'/>
+  <pieceOfFurniture level='level1' catalogId='eTeks#kitchenUpperCabinet' name='Kitchen upper cabinet' creator='eTeks' model='17' x='819.0739' y='904.81934' elevation='145.0975' angle='1.5707964' width='60.0075' depth='40.005' height='86.042496' modelMirrored='true' modelSize='11850'/>
+  <pieceOfFurniture level='level1' catalogId='eTeks#kitchenUpperCabinet' name='Kitchen upper cabinet' creator='eTeks' model='17' x='819.0739' y='964.82684' elevation='145.0975' angle='1.5707964' width='60.0075' depth='40.005' height='86.042496' modelMirrored='true' modelSize='11850'/>
+  <pieceOfFurniture level='level1' catalogId='eTeks#kitchenUpperCabinet' name='Kitchen upper cabinet' creator='eTeks' model='17' x='819.0739' y='1024.8344' elevation='145.0975' angle='1.5707964' width='60.0075' depth='40.005' height='86.042496' modelMirrored='true' modelSize='11850'/>
+  <doorOrWindow level='level1' catalogId='Scopia#window_2x1_with_sliders' name='Sliding window' creator='Scopia' model='43/window_2x1_with_sliders.obj' x='316.48822' y='982.5516' elevation='91.44' angle='4.7093906' width='121.92' depth='15.240749' height='91.44' modelMirrored='true' modelSize='18174' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level2' catalogId='OlaKristianHoff#fixed_window_2x2' name='Fixed small window' creator='Ola-Kristian Hoff' model='23/fixed_window_2x2.obj' x='489.68076' y='1086.7999' elevation='91.44' angle='4.709184' width='91.44' depth='10.488491' height='91.44' modelMirrored='true' modelSize='9276' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level2' catalogId='Scopia#window_2x1_with_sliders' name='Sliding window' creator='Scopia' model='43/window_2x1_with_sliders.obj' x='624.7925' y='1145.4822' elevation='76.2' angle='3.1445744' width='243.84' depth='15.240749' height='121.92' modelMirrored='true' modelSize='18174' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level2' catalogId='Scopia#window_2x1_with_sliders' name='Sliding window' creator='Scopia' model='43/window_2x1_with_sliders.obj' x='846.6964' y='569.85785' elevation='76.2' angle='4.712389' width='243.84' depth='15.240749' height='121.92' modelMirrored='true' modelSize='18174' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level1' catalogId='Scopia#window_2x1_with_sliders' name='Sliding window' creator='Scopia' model='43/window_2x1_with_sliders.obj' x='624.7925' y='1145.4822' elevation='76.2' angle='3.1445744' width='243.84' depth='15.240749' height='121.92' modelMirrored='true' modelSize='18174' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level2' catalogId='eTeks#sliderWindow126x200' name='Slider window' creator='eTeks' model='41' x='846.1874' y='338.78815' elevation='76.2' angle='1.5707964' width='91.44' widthInPlan='91.43999' depth='16.258781' height='121.92' modelMirrored='true' modelSize='7950' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level2' catalogId='OlaKristianHoff#staircase_handrail_hor' name='Handrail' creator='Ola-Kristian Hoff' model='89/staircase_handrail_hor.obj' x='477.83063' y='522.85657' angle='1.5707964' width='151.13' widthInPlan='151.13002' depth='2.54' height='87.9475' modelSize='31473' movable='false'/>
+  <pieceOfFurniture level='level2' catalogId='OlaKristianHoff#staircase_handrail_hor' name='Handrail' creator='Ola-Kristian Hoff' model='89/staircase_handrail_hor.obj' x='407.11462' y='555.7789' angle='1.5707964' width='90.17' widthInPlan='90.170006' depth='0.3175' height='87.9475' modelSize='31473' movable='false'/>
+  <doorOrWindow level='level3' catalogId='Scopia#window_2x1_with_sliders' name='Sliding window' creator='Scopia' model='43/window_2x1_with_sliders.obj' x='177.40411' y='187.63382' elevation='152.4' angle='4.712389' width='121.92' depth='15.240749' height='152.4' modelMirrored='true' modelSize='18174' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level2' catalogId='OlaKristianHoff#fixed_window_2x2' name='Fixed small window' creator='Ola-Kristian Hoff' model='23/fixed_window_2x2.obj' x='786.5051' y='440.69257' elevation='91.44' angle='3.1415927' width='91.44' depth='10.488491' height='91.44' modelMirrored='true' modelSize='9276' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level1' catalogId='Scopia#window_2x1_with_sliders' name='Sliding window' creator='Scopia' model='43/window_2x1_with_sliders.obj' x='846.6964' y='510.00833' elevation='91.44' angle='4.712389' width='121.92' depth='15.240749' height='91.44' modelMirrored='true' modelSize='18174' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level2' catalogId='eTeks#desk' name='Desk' creator='eTeks' model='75' x='254.29236' y='1102.7107' angle='3.1415927' width='140.01746' depth='67.94507' height='77.1525' modelMirrored='true' modelSize='16760'/>
+  <pieceOfFurniture level='level2' catalogId='Scopia#chair4' name='Chair' creator='Scopia' model='77/chair4.obj' x='259.15955' y='1044.6082' width='48.26001' depth='44.13257' height='88.265' modelMirrored='true' modelSize='70404'/>
+  <wall id='wall0' level='level1' wallAtStart='wall46' xStart='-2.8265839' yStart='1253.481' xEnd='-1.4730072' yEnd='2.4780731' height='121.92' thickness='7.62' pattern='hatchUp' leftSideColor='FFAEFAFF' rightSideColor='FFAEFAFF'/>
+  <wall id='wall1' level='level1' wallAtStart='wall32' wallAtEnd='wall56' xStart='919.6223' yStart='355.6449' xEnd='918.57965' yEnd='1257.5332' height='121.92' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall2' level='level1' wallAtEnd='wall22' xStart='-0.5' yStart='-0.44077873' xEnd='82.92792' yEnd='0.044891357' height='121.92' thickness='7.62' pattern='hatchUp' leftSideColor='FFFFD2B1' rightSideColor='FFFFD2B1'/>
+  <wall id='wall3' level='level1' wallAtStart='wall49' wallAtEnd='wall98' xStart='252.08289' yStart='608.3417' xEnd='100.83853' yEnd='610.28' height='487.68' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall4' level='level0' wallAtStart='wall7' wallAtEnd='wall5' xStart='458.41727' yStart='264.4302' xEnd='457.85892' yEnd='133.5004' height='243.84' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall5' level='level0' wallAtStart='wall4' wallAtEnd='wall6' xStart='457.85892' yStart='133.5004' xEnd='22.249023' yEnd='133.5004' height='243.84' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall6' level='level0' wallAtStart='wall5' wallAtEnd='wall7' xStart='22.249023' yStart='133.5004' xEnd='22.249023' yEnd='260.17642' height='243.84' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall7' level='level0' wallAtStart='wall6' wallAtEnd='wall4' xStart='22.249023' yStart='260.17642' xEnd='458.41727' yEnd='264.4302' height='243.84' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall8' level='level3' wallAtStart='wall59' xStart='297.3598' yStart='73.62027' xEnd='170.3598' yEnd='73.62027' height='365.76' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall9' level='level5' wallAtStart='wall54' wallAtEnd='wall58' xStart='182.00774' yStart='615.25653' xEnd='182.00775' yEnd='424.0655' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall10' level='level3' wallAtEnd='wall11' xStart='91.21303' yStart='5.472885' xEnd='3.5830307' yEnd='5.472885' height='91.44' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall11' level='level3' wallAtStart='wall10' wallAtEnd='wall12' xStart='3.5830307' yStart='5.472885' xEnd='3.5830307' yEnd='1244.993' height='91.44' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Small bricks' creator='eTeks' catalogId='eTeks#smallBricks' width='23.0' height='14.9' image='97'/>
+    <texture attribute='rightSideTexture' name='Small bricks' creator='eTeks' catalogId='eTeks#smallBricks' width='23.0' height='14.9' image='97'/>
+  </wall>
+  <wall id='wall12' level='level3' wallAtStart='wall11' wallAtEnd='wall13' xStart='3.5830307' yStart='1244.993' xEnd='912.91833' yEnd='1244.9929' height='91.44' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Small bricks' creator='eTeks' catalogId='eTeks#smallBricks' width='23.0' height='14.9' image='97'/>
+    <texture attribute='rightSideTexture' name='Small bricks' creator='eTeks' catalogId='eTeks#smallBricks' width='23.0' height='14.9' image='97'/>
+  </wall>
+  <wall id='wall13' level='level3' wallAtStart='wall12' xStart='912.91833' yStart='1244.9929' xEnd='912.91833' yEnd='348.37292' height='91.44' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Small bricks' creator='eTeks' catalogId='eTeks#smallBricks' width='23.0' height='14.9' image='97'/>
+    <texture attribute='rightSideTexture' name='Small bricks' creator='eTeks' catalogId='eTeks#smallBricks' width='23.0' height='14.9' image='97'/>
+  </wall>
+  <wall id='wall14' level='level5' wallAtStart='wall16' wallAtEnd='wall15' xStart='912.91833' yStart='5.472885' xEnd='3.5830307' yEnd='5.472885' height='91.44' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Beige tiles' creator='eTeks' width='20.0' height='20.0' image='91'/>
+  </wall>
+  <wall id='wall15' level='level5' wallAtStart='wall14' wallAtEnd='wall17' xStart='3.5830307' yStart='5.472885' xEnd='3.5830307' yEnd='1244.993' height='91.44' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Beige tiles' creator='eTeks' width='20.0' height='20.0' image='91'/>
+  </wall>
+  <wall id='wall16' level='level5' wallAtStart='wall17' wallAtEnd='wall14' xStart='912.91833' yStart='1244.9929' xEnd='912.91833' yEnd='5.472885' height='91.44' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Beige tiles' creator='eTeks' width='20.0' height='20.0' image='91'/>
+  </wall>
+  <wall id='wall17' level='level5' wallAtStart='wall15' wallAtEnd='wall16' xStart='3.5830307' yStart='1244.993' xEnd='912.91833' yEnd='1244.9929' height='91.44' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Beige tiles' creator='eTeks' width='20.0' height='20.0' image='91'/>
+  </wall>
+  <wall id='wall18' level='level7' wallAtStart='wall20' wallAtEnd='wall19' xStart='912.91833' yStart='5.472885' xEnd='3.5830307' yEnd='5.472885' height='91.44' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall19' level='level7' wallAtStart='wall18' wallAtEnd='wall21' xStart='3.5830307' yStart='5.472885' xEnd='3.5830307' yEnd='1244.993' height='91.44' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall20' level='level7' wallAtStart='wall21' wallAtEnd='wall18' xStart='912.91833' yStart='1244.9933' xEnd='912.91833' yEnd='5.472885' height='91.44' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall21' level='level7' wallAtStart='wall19' wallAtEnd='wall20' xStart='3.5830307' yStart='1244.993' xEnd='912.91833' yEnd='1244.9933' height='91.44' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall22' level='level1' wallAtStart='wall2' wallAtEnd='wall23' xStart='82.92792' yStart='0.044891357' xEnd='272.1579' yEnd='0.044891357' height='975.36' thickness='7.62' pattern='hatchUp' leftSideColor='FFFFD2B1' rightSideColor='FFFFD2B1'/>
+  <wall id='wall23' level='level1' wallAtStart='wall22' wallAtEnd='wall32' xStart='272.1579' yStart='0.044891357' xEnd='919.6219' yEnd='0.044891357' height='792.48' thickness='7.62' pattern='hatchUp' leftSideColor='FFFFD2B1' rightSideColor='FFFFD2B1'/>
+  <wall id='wall24' level='level7' wallAtStart='wall38' xStart='352.86337' yStart='275.05768' xEnd='185.24016' yEnd='275.05768' height='228.59999' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall25' level='level7' wallAtStart='wall26' wallAtEnd='wall100' xStart='594.713' yStart='563.2076' xEnd='594.713' yEnd='76.9986' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall26' level='level7' wallAtStart='wall61' wallAtEnd='wall25' xStart='185.24017' yStart='563.20764' xEnd='594.713' yEnd='563.2076' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall27' level='level9' wallAtStart='wall39' wallAtEnd='wall28' xStart='347.53455' yStart='76.87746' xEnd='347.53455' yEnd='274.4483' height='152.4' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall28' level='level9' wallAtStart='wall27' wallAtEnd='wall29' xStart='347.53455' yStart='274.4483' xEnd='186.54181' yEnd='274.44833' height='152.4' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall29' level='level9' wallAtStart='wall28' wallAtEnd='wall40' xStart='186.54181' yStart='274.44833' xEnd='186.54181' yEnd='75.9872' height='152.4' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall30' level='level9' wallAtStart='wall39' wallAtEnd='wall31' xStart='598.9042' yStart='76.87746' xEnd='598.2559' yEnd='558.18634' height='60.96' thickness='7.62' pattern='hatchUp'/>
+  <wall id='wall31' level='level9' wallAtStart='wall30' wallAtEnd='wall57' xStart='598.2559' yStart='558.18634' xEnd='184.00076' yEnd='560.5578' height='60.96' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall32' level='level1' wallAtStart='wall23' wallAtEnd='wall1' xStart='919.6219' yStart='0.044891357' xEnd='919.6223' yEnd='355.6449' height='792.48' thickness='7.62' pattern='hatchUp' leftSideColor='FFFFD2B1' rightSideColor='FFFFD2B1'/>
+  <wall id='wall33' level='level1' xStart='992.2665' yStart='354.13153' xEnd='992.2665' yEnd='841.8115' height='792.48' thickness='7.62' pattern='hatchUp' leftSideColor='FFFFD2B1' rightSideColor='FFFFD2B1'/>
+  <wall id='wall34' level='level1' xStart='935.08203' yStart='840.2649' xEnd='935.08203' yEnd='1236.5049' height='792.48' thickness='7.62' pattern='hatchUp' leftSideColor='FFFFD2B1' rightSideColor='FFFFD2B1'/>
+  <wall id='wall35' level='level1' xStart='-16.533775' yStart='857.23804' xEnd='-16.533775' yEnd='1253.478' height='792.48' thickness='7.62' pattern='hatchUp' leftSideColor='FFAEFAFF' rightSideColor='FFAEFAFF'/>
+  <wall id='wall36' level='level1' xStart='-146.26234' yStart='360.18524' xEnd='-146.26234' yEnd='847.86523' height='792.48' thickness='7.62' pattern='hatchUp' leftSideColor='FFAEFAFF' rightSideColor='FFAEFAFF'/>
+  <wall id='wall37' level='level1' xStart='-72.18036' yStart='38.918274' xEnd='-72.18036' yEnd='361.49826' height='792.48' thickness='7.62' pattern='hatchUp' leftSideColor='FFAEFAFF' rightSideColor='FFAEFAFF'/>
+  <wall id='wall38' level='level7' wallAtStart='wall24' xStart='352.86337' yStart='275.05768' xEnd='352.86337' yEnd='76.08062' height='228.59999' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall39' level='level9' wallAtStart='wall30' wallAtEnd='wall27' xStart='598.9042' yStart='76.87746' xEnd='347.53455' yEnd='76.87746' height='60.96' thickness='7.62' pattern='hatchUp'/>
+  <wall id='wall40' level='level9' wallAtEnd='wall29' xStart='343.28366' yStart='75.9872' xEnd='186.54181' yEnd='75.9872' height='152.4' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall41' level='level5' wallAtStart='wall85' xStart='332.2553' yStart='240.62729' xEnd='332.25604' yEnd='82.15335' height='228.59999' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall42' level='level5' xStart='336.26587' yStart='240.73563' xEnd='183.05516' yEnd='240.73563' height='228.59999' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall43' level='level5' wallAtStart='wall84' xStart='526.0166' yStart='241.7092' xEnd='527.079' yEnd='76.44833' height='304.8' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall44' level='level5' wallAtStart='wall89' wallAtEnd='wall87' xStart='297.3598' yStart='73.62024' xEnd='180.77325' yEnd='74.5782' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall45' level='level1' xStart='306.62415' yStart='1257.1497' xEnd='576.5238' yEnd='1257.1497' height='121.92' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall46' level='level1' wallAtEnd='wall0' xStart='-1.4730072' yStart='1254.2625' xEnd='-2.8265839' yEnd='1253.481' height='121.92' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall47' level='level1' wallAtStart='wall121' wallAtEnd='wall48' xStart='315.87427' yStart='1144.561' xEnd='314.77863' yEnd='779.13544' height='228.59999' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall48' level='level1' wallAtStart='wall47' wallAtEnd='wall49' xStart='314.77863' yStart='779.13544' xEnd='250.09935' yEnd='779.13544' height='228.59999' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall49' level='level1' wallAtStart='wall48' wallAtEnd='wall3' xStart='250.09935' yStart='779.13544' xEnd='252.08289' yEnd='608.3417' height='487.68' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall50' level='level3' wallAtStart='wall93' wallAtEnd='wall51' xStart='256.9887' yStart='1144.375' xEnd='256.9887' yEnd='615.25653' height='365.76' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall51' level='level3' wallAtStart='wall50' xStart='256.9887' yStart='615.25653' xEnd='170.3598' yEnd='615.25653' height='365.76' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall52' level='level5' wallAtStart='wall81' wallAtEnd='wall55' xStart='100.2124' yStart='1146.1439' xEnd='99.27066' yEnd='783.46106' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall53' level='level5' wallAtStart='wall55' wallAtEnd='wall54' xStart='253.22188' yStart='783.46106' xEnd='254.16359' yEnd='615.25653' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall54' level='level5' wallAtStart='wall53' wallAtEnd='wall9' xStart='254.16359' yStart='615.25653' xEnd='182.00774' yEnd='615.25653' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall55' level='level5' wallAtStart='wall52' wallAtEnd='wall53' xStart='99.27066' yStart='783.46106' xEnd='253.22188' yEnd='783.46106' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall56' level='level1' wallAtEnd='wall1' xStart='733.15967' yStart='1257.5332' xEnd='918.57965' yEnd='1257.5332' height='121.92' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall57' level='level9' wallAtStart='wall31' xStart='184.00076' yStart='560.5578' xEnd='184.00076' yEnd='274.44833' height='60.96' thickness='7.62' pattern='hatchUp'/>
+  <wall id='wall58' level='level5' wallAtStart='wall9' wallAtEnd='wall86' xStart='182.00775' yStart='424.0655' xEnd='182.00775' yEnd='356.60284' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall59' level='level3' wallAtStart='wall71' wallAtEnd='wall8' xStart='312.38788' yStart='73.62027' xEnd='297.3598' yEnd='73.62027' height='457.19998' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall60' level='level7' wallAtStart='wall62' wallAtEnd='wall61' xStart='187.89743' yStart='75.45447' xEnd='185.24017' yEnd='275.05658' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall61' level='level7' wallAtStart='wall60' wallAtEnd='wall26' xStart='185.24017' yStart='275.05658' xEnd='185.24017' yEnd='563.20764' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall62' level='level7' wallAtStart='wall60' wallAtEnd='wall99' xStart='187.89743' yStart='75.45447' xEnd='343.28366' yEnd='76.08062' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall63' level='level3' wallAtStart='wall65' xStart='653.1192' yStart='242.25732' xEnd='845.8825' yEnd='242.25732' height='228.59999' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall64' level='level3' wallAtStart='wall66' xStart='500.20044' yStart='242.39832' xEnd='692.7457' yEnd='242.39832' height='228.59999' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall65' level='level3' wallAtEnd='wall63' xStart='652.36896' yStart='78.52037' xEnd='653.1192' yEnd='242.25732' height='228.59999' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall66' level='level3' wallAtEnd='wall64' xStart='500.20044' yStart='74.237595' xEnd='500.20044' yEnd='242.39832' height='365.76' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall67' level='level1' xStart='498.94556' yStart='74.237656' xEnd='498.94556' yEnd='242.39838' height='228.59999' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall68' level='level3' wallAtStart='wall70' wallAtEnd='wall69' xStart='846.60706' yStart='73.62027' xEnd='847.90515' yEnd='242.25781' height='365.76' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall69' level='level3' wallAtStart='wall68' wallAtEnd='wall92' xStart='847.90515' yStart='242.25781' xEnd='847.9051' yEnd='1146.1439' height='365.76' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall70' level='level3' wallAtStart='wall68' wallAtEnd='wall104' xStart='846.60706' yStart='73.62027' xEnd='702.13696' yEnd='73.62027' height='365.76' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall71' level='level3' wallAtStart='wall104' wallAtEnd='wall59' xStart='508.82214' yStart='73.62027' xEnd='312.38788' yEnd='73.62027' height='365.76' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall72' level='level1' wallAtEnd='wall73' xStart='182.1908' yStart='439.39484' xEnd='500.20044' yEnd='439.39484' height='228.59999' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Small white bricks' creator='eTeks' catalogId='eTeks#smallWhiteBricks' width='35.3' height='14.9' image='96'/>
+  </wall>
+  <wall id='wall73' level='level1' wallAtStart='wall72' xStart='500.20044' yStart='439.39484' xEnd='498.94556' yEnd='242.39838' height='228.59999' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Small white bricks' creator='eTeks' catalogId='eTeks#smallWhiteBricks' width='35.3' height='14.9' image='96'/>
+  </wall>
+  <wall id='wall74' level='level3' wallAtEnd='wall75' xStart='183.80951' yStart='421.4319' xEnd='498.94556' yEnd='421.4319' height='365.76' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Small white bricks' creator='eTeks' catalogId='eTeks#smallWhiteBricks' width='35.3' height='14.9' image='96'/>
+  </wall>
+  <wall id='wall75' level='level3' wallAtStart='wall74' xStart='498.94556' yStart='421.4319' xEnd='498.94556' yEnd='242.39838' height='365.76' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Small white bricks' creator='eTeks' catalogId='eTeks#smallWhiteBricks' width='35.3' height='14.9' image='96'/>
+  </wall>
+  <wall id='wall76' level='level5' wallAtStart='wall77' xStart='448.64557' yStart='783.46106' xEnd='449.58734' yEnd='1146.1438' height='304.8' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Small white bricks' creator='eTeks' width='35.3' height='14.9' image='96'/>
+    <texture attribute='rightSideTexture' name='Small white bricks' creator='eTeks' width='35.3' height='14.9' image='96'/>
+  </wall>
+  <wall id='wall77' level='level5' wallAtStart='wall76' xStart='448.64557' yStart='783.46106' xEnd='256.04706' yEnd='783.46106' height='304.8' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Small white bricks' creator='eTeks' width='35.3' height='14.9' image='96'/>
+    <texture attribute='rightSideTexture' name='Small white bricks' creator='eTeks' width='35.3' height='14.9' image='96'/>
+  </wall>
+  <wall id='wall78' level='level5' wallAtEnd='wall79' xStart='849.28' yStart='420.87225' xEnd='524.0354' yEnd='420.87228' height='304.8' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Small white bricks' creator='eTeks' width='35.3' height='14.9' image='96'/>
+    <texture attribute='rightSideTexture' name='Small white bricks' creator='eTeks' width='35.3' height='14.9' image='96'/>
+  </wall>
+  <wall id='wall79' level='level5' wallAtEnd='wall78' xStart='525.6179' yStart='241.7092' xEnd='524.0354' yEnd='420.87228' height='304.8' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Small white bricks' creator='eTeks' width='35.3' height='14.9' image='96'/>
+    <texture attribute='rightSideTexture' name='Small white bricks' creator='eTeks' width='35.3' height='14.9' image='96'/>
+  </wall>
+  <wall id='wall80' level='level5' wallAtStart='wall83' wallAtEnd='wall81' xStart='845.2342' yStart='1146.5935' xEnd='451.24295' yEnd='1146.1439' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall81' level='level5' wallAtStart='wall80' wallAtEnd='wall52' xStart='451.24295' yStart='1146.1439' xEnd='100.2124' yEnd='1146.1439' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall82' level='level5' wallAtStart='wall88' wallAtEnd='wall83' xStart='846.60706' yStart='73.62024' xEnd='845.23425' yEnd='421.3246' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall83' level='level5' wallAtStart='wall82' wallAtEnd='wall80' xStart='845.23425' yStart='421.3246' xEnd='845.2342' yEnd='1146.5935' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall84' level='level5' wallAtStart='wall43' wallAtEnd='wall85' xStart='526.0166' yStart='241.7092' xEnd='351.65826' yEnd='240.73563' height='228.59999' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall85' level='level5' wallAtStart='wall84' wallAtEnd='wall41' xStart='351.65826' yStart='240.73563' xEnd='332.2553' yEnd='240.62729' height='228.59999' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall86' level='level5' wallAtStart='wall58' wallAtEnd='wall87' xStart='182.00775' yStart='356.60284' xEnd='181.50056' yEnd='240.73438' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall87' level='level5' wallAtStart='wall86' wallAtEnd='wall44' xStart='181.50056' yStart='240.73438' xEnd='180.77325' yEnd='74.5782' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall88' level='level5' wallAtStart='wall82' wallAtEnd='wall89' xStart='846.60706' yStart='73.62024' xEnd='527.09717' yEnd='73.62024' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall89' level='level5' wallAtStart='wall88' wallAtEnd='wall44' xStart='527.09717' yStart='73.62024' xEnd='297.3598' yEnd='73.62024' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall90' level='level2' wallAtStart='wall115' xStart='487.97583' yStart='605.94385' xEnd='489.7068' yEnd='1146.0525' height='243.84' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Small white bricks' creator='eTeks' catalogId='eTeks#smallWhiteBricks' width='35.3' height='14.9' image='96'/>
+    <texture attribute='rightSideTexture' name='Small white bricks' creator='eTeks' catalogId='eTeks#smallWhiteBricks' width='35.3' height='14.9' image='96'/>
+  </wall>
+  <wall id='wall91' level='level2' wallAtStart='wall96' wallAtEnd='wall123' xStart='99.93977' yStart='778.03986' xEnd='99.93979' yEnd='1145.6328' height='243.84' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall92' level='level3' wallAtStart='wall69' wallAtEnd='wall93' xStart='847.9051' yStart='1146.1439' xEnd='582.58606' yEnd='1146.1437' height='365.76' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall93' level='level3' wallAtStart='wall92' wallAtEnd='wall50' xStart='582.58606' yStart='1146.1437' xEnd='256.9887' yEnd='1144.375' height='365.76' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Small white bricks' creator='eTeks' width='35.3' height='14.9' image='96'/>
+  </wall>
+  <wall id='wall94' level='level3' wallAtEnd='wall95' xStart='177.40408' yStart='615.25653' xEnd='177.40408' yEnd='421.4319' height='365.76' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall95' level='level3' wallAtStart='wall94' xStart='177.40408' yStart='421.4319' xEnd='177.40411' yEnd='74.39972' height='365.76' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall96' level='level2' wallAtEnd='wall91' xStart='256.48752' yStart='777.15204' xEnd='99.93977' yEnd='778.03986' height='243.84' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall97' level='level1' wallAtStart='wall108' wallAtEnd='wall112' xStart='498.94556' yStart='74.39972' xEnd='177.40411' yEnd='74.39972' height='487.68' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall98' level='level1' wallAtStart='wall3' wallAtEnd='wall111' xStart='100.83853' yStart='610.28' xEnd='100.83853' yEnd='437.56003' height='487.68' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall99' level='level7' wallAtStart='wall62' wallAtEnd='wall100' xStart='343.28366' yStart='76.08062' xEnd='352.86337' yEnd='76.11559' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall100' level='level7' wallAtStart='wall99' wallAtEnd='wall25' xStart='352.86337' yStart='76.11559' xEnd='594.713' yEnd='76.9986' height='304.8' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall101' level='level1' wallAtStart='wall110' xStart='653.1192' yStart='242.25732' xEnd='845.8825' yEnd='242.25732' height='228.59999' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall102' level='level2' wallAtEnd='wall103' xStart='652.36896' yStart='78.52037' xEnd='653.1192' yEnd='242.25732' height='228.59999' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall103' level='level2' wallAtStart='wall102' xStart='653.1192' yStart='242.25732' xEnd='845.8825' yEnd='242.25732' height='228.59999' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall104' level='level3' wallAtStart='wall70' wallAtEnd='wall71' xStart='702.13696' yStart='73.62027' xEnd='508.82214' yEnd='73.62027' height='365.76' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall105' level='level1' wallAtStart='wall107' wallAtEnd='wall106' xStart='846.6964' yStart='74.39972' xEnd='846.6964' yEnd='242.25732' height='487.68' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall106' level='level1' wallAtStart='wall105' wallAtEnd='wall118' xStart='846.6964' yStart='242.25732' xEnd='846.6964' yEnd='1146.1439' height='487.68' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall107' level='level1' wallAtStart='wall105' wallAtEnd='wall108' xStart='846.6964' yStart='74.39972' xEnd='652.3501' yEnd='74.39972' height='487.68' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall108' level='level1' wallAtStart='wall107' wallAtEnd='wall97' xStart='652.3501' yStart='74.39972' xEnd='498.94556' yEnd='74.39972' height='487.68' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall109' level='level2' xStart='182.26025' yStart='440.85645' xEnd='850.33563' yEnd='440.85645' height='243.84' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Small white bricks' creator='eTeks' catalogId='eTeks#smallWhiteBricks' width='35.3' height='14.9' image='96'/>
+  </wall>
+  <wall id='wall110' level='level1' wallAtEnd='wall101' xStart='652.36896' yStart='78.52037' xEnd='653.1192' yEnd='242.25732' height='228.59999' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall111' level='level1' wallAtStart='wall98' wallAtEnd='wall112' xStart='100.83853' yStart='437.56003' xEnd='177.40411' yEnd='437.56003' height='487.68' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall112' level='level1' wallAtStart='wall111' wallAtEnd='wall97' xStart='177.40411' yStart='437.56003' xEnd='177.40411' yEnd='74.39972' height='487.68' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall113' level='level1' wallAtEnd='wall114' xStart='500.20044' yStart='242.39832' xEnd='653.1198' yEnd='242.39832' height='228.59999' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall114' level='level1' wallAtStart='wall113' xStart='653.1198' yStart='242.39832' xEnd='692.7457' yEnd='242.39832' height='228.59999' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall115' level='level2' wallAtEnd='wall90' xStart='252.11075' yStart='605.94385' xEnd='487.97583' yEnd='605.94385' height='243.84' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Small white bricks' creator='eTeks' width='35.3' height='14.9' image='96'/>
+    <texture attribute='rightSideTexture' name='Small white bricks' creator='eTeks' width='35.3' height='14.9' image='96'/>
+  </wall>
+  <wall id='wall116' level='level3' xStart='582.58606' yStart='781.6537' xEnd='582.58606' yEnd='1146.1437' height='365.76' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Small white bricks' creator='eTeks' catalogId='eTeks#smallWhiteBricks' width='35.3' height='14.9' image='96'/>
+    <texture attribute='rightSideTexture' name='Small white bricks' creator='eTeks' catalogId='eTeks#smallWhiteBricks' width='35.3' height='14.9' image='96'/>
+  </wall>
+  <wall id='wall117' level='level2' wallAtEnd='wall122' xStart='582.58606' yStart='1145.6328' xEnd='507.0554' yEnd='1145.6328' height='243.84' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall118' level='level1' wallAtStart='wall106' wallAtEnd='wall119' xStart='846.6964' yStart='1146.1439' xEnd='675.3144' yEnd='1145.6328' height='487.68' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall119' level='level1' wallAtStart='wall118' wallAtEnd='wall120' xStart='675.3144' yStart='1145.6328' xEnd='507.05383' yEnd='1145.1311' height='487.68' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall120' level='level1' wallAtStart='wall119' wallAtEnd='wall121' xStart='507.05383' yStart='1145.1311' xEnd='489.70374' yEnd='1145.0793' height='487.68' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall121' level='level1' wallAtStart='wall120' wallAtEnd='wall47' xStart='489.70374' yStart='1145.0793' xEnd='315.87427' yEnd='1144.561' height='487.68' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' catalogId='eTeks#stoneWall' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall122' level='level2' wallAtStart='wall117' wallAtEnd='wall123' xStart='507.0554' yStart='1145.6328' xEnd='489.70544' yEnd='1145.6328' height='243.84' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <wall id='wall123' level='level2' wallAtStart='wall122' wallAtEnd='wall91' xStart='489.70544' yStart='1145.6328' xEnd='99.93979' yEnd='1145.6328' height='243.84' thickness='15.24' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Stone' creator='eTeks' width='76.0' height='35.0' image='95'/>
+    <texture attribute='rightSideTexture' name='Stone' creator='eTeks' width='76.0' height='35.0' image='95'/>
+  </wall>
+  <room level='level3' nameAngle='4.712389' nameXOffset='-40.0' nameYOffset='4.5776367E-5' areaAngle='4.712389' areaYOffset='4.5776367E-5'>
+    <texture attribute='floorTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <point x='657.47296' y='83.7758'/>
+    <point x='658.17645' y='237.29327'/>
+    <point x='657.6263' y='237.29327'/>
+    <point x='657.6263' y='241.59888'/>
+    <point x='750.1407' y='241.59894'/>
+    <point x='750.14056' y='237.3183'/>
+    <point x='839.86444' y='237.3183'/>
+    <point x='839.86444' y='83.7758'/>
+    <point x='803.2786' y='83.7758'/>
+  </room>
+  <room level='level3' nameAngle='4.712389' nameXOffset='-39.99994' nameYOffset='4.5776367E-5' areaAngle='4.712389' areaXOffset='6.1035156E-5' areaYOffset='4.5776367E-5'>
+    <texture attribute='floorTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <point x='507.59924' y='237.1773'/>
+    <point x='507.59924' y='227.22925'/>
+    <point x='507.59924' y='83.7758'/>
+    <point x='647.3129' y='83.7758'/>
+    <point x='648.0158' y='237.1773'/>
+  </room>
+  <room level='level5' nameAngle='4.712389' nameXOffset='-40.000015' nameYOffset='0.0' areaAngle='4.712389' areaXOffset='-1.5258789E-5'>
+    <texture attribute='floorTexture' name='Grey tiles' creator='eTeks' catalogId='eTeks#greyTile' width='31.5' height='31.5' image='92'/>
+    <texture attribute='ceilingTexture' name='Beige tiles' creator='eTeks' catalogId='eTeks#beigeTile' width='20.0' height='20.0' image='91'/>
+    <point x='190.67528' y='235.65567'/>
+    <point x='327.17535' y='235.65567'/>
+    <point x='327.17603' y='84.78885'/>
+    <point x='190.67528' y='85.28079'/>
+  </room>
+  <room level='level5' nameAngle='4.712389' nameXOffset='-39.99997' nameYOffset='0.0' areaAngle='4.712389' areaXOffset='3.0517578E-5'>
+    <texture attribute='floorTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <texture attribute='ceilingTexture' name='Beige tiles' creator='eTeks' catalogId='eTeks#beigeTile' width='20.0' height='20.0' image='91'/>
+    <point x='337.33533' y='235.57559'/>
+    <point x='520.9702' y='236.60098'/>
+    <point x='521.9468' y='84.08688'/>
+    <point x='337.33606' y='84.75223'/>
+  </room>
+  <room level='level7' areaVisible='true'>
+    <texture attribute='floorTexture' name='Light blue tiles' creator='eTeks' catalogId='eTeks#lightBlueTile' width='33.5' height='33.5' image='90'/>
+    <texture attribute='ceilingTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <point x='357.94336' y='83.72076'/>
+    <point x='357.94336' y='281.3661'/>
+    <point x='192.79248' y='280.1915'/>
+    <point x='190.36719' y='462.36832'/>
+    <point x='182.7265' y='462.26657'/>
+    <point x='181.50238' y='554.2159'/>
+    <point x='189.14307' y='554.31757'/>
+    <point x='189.12616' y='555.5878'/>
+    <point x='587.093' y='555.5876'/>
+    <point x='587.093' y='84.58973'/>
+  </room>
+  <room level='level7' areaVisible='true'>
+    <texture attribute='floorTexture' name='Light blue tiles' creator='eTeks' catalogId='eTeks#lightBlueTile' width='33.5' height='33.5' image='90'/>
+    <point x='249.36877' y='570.8276'/>
+    <point x='602.333' y='570.8276'/>
+    <point x='602.333' y='67.491516'/>
+    <point x='852.56885' y='67.491516'/>
+    <point x='860.94183' y='1153.7639'/>
+    <point x='304.62292' y='1153.7639'/>
+    <point x='304.6229' y='787.7459'/>
+    <point x='249.36877' y='787.7459'/>
+  </room>
+  <room level='level9' ceilingVisible='false'>
+    <point x='357.94336' y='83.72076'/>
+    <point x='587.093' y='83.68223'/>
+    <point x='590.6359' y='548.8414'/>
+    <point x='192.66907' y='548.8416'/>
+    <point x='192.66905' y='278.25833'/>
+    <point x='357.94336' y='281.3661'/>
+  </room>
+  <room level='level9' nameAngle='1.7484555E-7' nameXOffset='-3.0517578E-5' areaVisible='true' areaAngle='1.7484555E-7' areaXOffset='-3.0517578E-5' ceilingVisible='false'>
+    <texture attribute='floorTexture' name='Grey tiles' creator='eTeks' catalogId='eTeks#greyTile' width='31.5' height='31.5' image='92'/>
+    <point x='672.4807' y='74.23012'/>
+    <point x='604.493' y='74.23012'/>
+    <point x='604.493' y='140.27013'/>
+    <point x='672.4807' y='140.27013'/>
+  </room>
+  <room level='level3' areaVisible='true' ceilingVisible='false'>
+    <texture attribute='floorTexture' name='Black and white tiles' creator='eTeks' catalogId='eTeks#blackAndWhiteTiles' width='70.0' height='70.0' image='93'/>
+    <point x='170.3598' y='1.6628852'/>
+    <point x='909.10834' y='9.282885'/>
+    <point x='909.10834' y='66.0'/>
+    <point x='170.3598' y='66.00027'/>
+  </room>
+  <room level='level5' areaVisible='true' ceilingVisible='false'>
+    <texture attribute='floorTexture' name='Black and white tiles' creator='eTeks' catalogId='eTeks#blackAndWhiteTiles' width='70.0' height='70.0' image='93'/>
+    <point x='909.10834' y='66.0'/>
+    <point x='173.88063' y='65.99994'/>
+    <point x='173.88063' y='9.282885'/>
+    <point x='909.10834' y='9.282885'/>
+  </room>
+  <room level='level1' areaVisible='true' ceilingVisible='false'>
+    <texture attribute='floorTexture' name='Pebbles' creator='eTeks' catalogId='eTeks#pebbles' width='20.0' height='20.0' image='94'/>
+    <point x='2.3360126' y='3.3857954'/>
+    <point x='915.8119' y='3.8548913'/>
+    <point x='915.8119' y='66.77972'/>
+    <point x='2.3360126' y='65.99992'/>
+  </room>
+  <room level='level7' areaVisible='true' ceilingVisible='false'>
+    <texture attribute='floorTexture' name='Black and white tiles' creator='eTeks' catalogId='eTeks#blackAndWhiteTiles' width='70.0' height='70.0' image='93'/>
+    <point x='909.10834' y='66.0'/>
+    <point x='180.61205' y='66.00006'/>
+    <point x='180.61205' y='9.282885'/>
+    <point x='909.10834' y='9.282885'/>
+  </room>
+  <room level='level0' name='Borewell' nameXOffset='4.493042' nameYOffset='8.425293' ceilingVisible='false'>
+    <point x='213.6152' y='1069.9734'/>
+    <point x='183.13521' y='1069.9734'/>
+    <point x='183.13521' y='1100.579'/>
+    <point x='213.6152' y='1100.579'/>
+  </room>
+  <room level='level0'>
+    <point x='454.0651' y='137.30682'/>
+    <point x='454.59082' y='260.58026'/>
+    <point x='26.059025' y='256.4034'/>
+    <point x='26.059025' y='137.31036'/>
+  </room>
+  <room level='level7'>
+    <texture attribute='floorTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <texture attribute='ceilingTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <point x='190.67528' y='85.28079'/>
+    <point x='343.26093' y='85.28079'/>
+    <point x='343.26093' y='269.9777'/>
+    <point x='192.92847' y='269.9777'/>
+  </room>
+  <room level='level9' name='tank 3&apos; high'>
+    <point x='343.72455' y='79.79717'/>
+    <point x='343.72455' y='270.6383'/>
+    <point x='190.3518' y='270.63837'/>
+    <point x='190.3518' y='79.797195'/>
+  </room>
+  <room level='level3' areaVisible='true'>
+    <texture attribute='floorTexture' name='Grey tiles' creator='eTeks' catalogId='eTeks#greyTile' width='31.5' height='31.5' image='92'/>
+    <point x='7.3930306' y='434.09143'/>
+    <point x='170.3598' y='434.09143'/>
+    <point x='170.35979' y='622.8765'/>
+    <point x='91.21303' y='622.8765'/>
+    <point x='91.21302' y='783.9406'/>
+    <point x='7.3930306' y='783.9406'/>
+    <point x='7.3930306' y='434.09143'/>
+  </room>
+  <room level='level3'>
+    <texture attribute='floorTexture' name='Black and white tiles' creator='eTeks' catalogId='eTeks#blackAndWhiteTiles' width='70.0' height='70.0' image='93'/>
+    <point x='854.16864' y='66.0'/>
+    <point x='909.10834' y='66.0'/>
+    <point x='909.1083' y='1241.1829'/>
+    <point x='7.3930306' y='1241.183'/>
+    <point x='7.3930306' y='783.9406'/>
+    <point x='91.21302' y='783.9406'/>
+    <point x='91.213005' y='1153.7639'/>
+    <point x='855.5251' y='1153.7639'/>
+  </room>
+  <room level='level5' areaVisible='true'>
+    <texture attribute='floorTexture' name='Grey tiles' creator='eTeks' catalogId='eTeks#greyTile' width='31.5' height='31.5' image='92'/>
+    <point x='7.3930306' y='434.09143'/>
+    <point x='170.3598' y='434.09143'/>
+    <point x='170.35979' y='622.8765'/>
+    <point x='91.21303' y='622.8765'/>
+    <point x='91.21302' y='783.9406'/>
+    <point x='7.3930306' y='783.9406'/>
+    <point x='7.3930306' y='434.09143'/>
+  </room>
+  <room level='level7'>
+    <texture attribute='floorTexture' name='Light blue tiles' creator='eTeks' catalogId='eTeks#lightBlueTile' width='33.5' height='33.5' image='90'/>
+    <point x='7.3930306' y='434.09143'/>
+    <point x='177.62018' y='434.09143'/>
+    <point x='177.62018' y='570.82764'/>
+    <point x='249.36877' y='570.8276'/>
+    <point x='249.36877' y='627.9776'/>
+    <point x='91.21303' y='627.9776'/>
+    <point x='91.21302' y='783.9406'/>
+    <point x='7.3930306' y='783.9406'/>
+  </room>
+  <room level='level3' areaVisible='true'>
+    <texture attribute='floorTexture' name='Grey tiles' creator='eTeks' catalogId='eTeks#greyTile' width='31.5' height='31.5' image='92'/>
+    <point x='91.21299' y='778.03986'/>
+    <point x='247.42297' y='778.03986'/>
+    <point x='247.42296' y='1151.9537'/>
+    <point x='91.213005' y='1153.7639'/>
+  </room>
+  <room level='level5'>
+    <texture attribute='floorTexture' name='Black and white tiles' creator='eTeks' catalogId='eTeks#blackAndWhiteTiles' width='70.0' height='70.0' image='93'/>
+    <point x='854.16864' y='66.0'/>
+    <point x='909.10834' y='66.0'/>
+    <point x='909.1083' y='1241.1829'/>
+    <point x='7.3930306' y='1241.183'/>
+    <point x='7.3930306' y='783.9406'/>
+    <point x='91.21302' y='783.9406'/>
+    <point x='91.213005' y='1153.7639'/>
+    <point x='852.8542' y='1154.2222'/>
+  </room>
+  <room level='level7' areaVisible='true'>
+    <texture attribute='floorTexture' name='Grey tiles' creator='eTeks' catalogId='eTeks#greyTile' width='31.5' height='31.5' image='92'/>
+    <point x='91.21302' y='783.9406'/>
+    <point x='303.05273' y='783.9406'/>
+    <point x='303.0527' y='1153.7639'/>
+    <point x='91.213005' y='1153.7639'/>
+  </room>
+  <room level='level7' areaVisible='true'>
+    <texture attribute='floorTexture' name='Black and white tiles' creator='eTeks' catalogId='eTeks#blackAndWhiteTiles' width='70.0' height='70.0' image='93'/>
+    <point x='854.16864' y='66.0'/>
+    <point x='909.10834' y='66.0'/>
+    <point x='909.1083' y='1241.1829'/>
+    <point x='7.3930306' y='1241.183'/>
+    <point x='7.3930306' y='783.9406'/>
+    <point x='91.21302' y='783.9406'/>
+    <point x='91.213005' y='1153.7639'/>
+    <point x='862.5416' y='1153.7638'/>
+  </room>
+  <room level='level5' areaVisible='true' areaXOffset='44.308533' areaYOffset='6.329712'>
+    <texture attribute='floorTexture' name='Grey tiles' creator='eTeks' catalogId='eTeks#greyTile' width='31.5' height='31.5' image='92'/>
+    <texture attribute='ceilingTexture' name='Beige tiles' creator='eTeks' catalogId='eTeks#beigeTile' width='20.0' height='20.0' image='91'/>
+    <point x='106.91047' y='791.08203'/>
+    <point x='107.832405' y='1138.5238'/>
+    <point x='443.623' y='1138.5238'/>
+    <point x='445.23438' y='788.5469'/>
+  </room>
+  <room level='level5' areaVisible='true'>
+    <texture attribute='floorTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <texture attribute='ceilingTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <point x='532.8254' y='73.594925'/>
+    <point x='532.8254' y='81.24109'/>
+    <point x='532.1283' y='81.24109'/>
+    <point x='531.0639' y='246.81747'/>
+    <point x='530.653' y='246.81519'/>
+    <point x='529.8679' y='335.69492'/>
+    <point x='524.76587' y='335.64987'/>
+    <point x='524.087' y='412.50912'/>
+    <point x='529.189' y='412.55414'/>
+    <point x='529.1604' y='415.7923'/>
+    <point x='841.6207' y='415.79227'/>
+    <point x='839.04553' y='81.24219'/>
+    <point x='609.52527' y='81.24136'/>
+    <point x='609.5252' y='73.59494'/>
+  </room>
+  <room level='level5' areaVisible='true'>
+    <texture attribute='floorTexture' name='Grey tiles' creator='eTeks' catalogId='eTeks#greyTile' width='31.5' height='31.5' image='92'/>
+    <texture attribute='ceilingTexture' name='Beige tiles' creator='eTeks' catalogId='eTeks#beigeTile' width='20.0' height='20.0' image='91'/>
+    <point x='339.91748' y='240.64702'/>
+    <point x='191.24315' y='240.71082'/>
+    <point x='189.62773' y='607.6366'/>
+    <point x='264.60876' y='607.6366'/>
+    <point x='264.60876' y='775.83984'/>
+    <point x='455.368' y='778.375'/>
+    <point x='456.32297' y='1138.5238'/>
+    <point x='847.1839' y='1138.5238'/>
+    <point x='841.6989' y='425.95224'/>
+    <point x='518.91034' y='425.95227'/>
+    <point x='519.7084' y='335.60516'/>
+    <point x='519.7084' y='335.60516'/>
+    <point x='520.49316' y='246.75845'/>
+    <point x='416.77988' y='246.17935'/>
+    <point x='416.80838' y='241.07635'/>
+  </room>
+  <room level='level3' areaVisible='true'>
+    <texture attribute='floorTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <texture attribute='ceilingTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <point x='185.02411' y='82.01972'/>
+    <point x='185.02411' y='416.3519'/>
+    <point x='416.2173' y='416.3519'/>
+    <point x='416.2173' y='421.45703'/>
+    <point x='493.1673' y='421.45703'/>
+    <point x='493.1673' y='416.3519'/>
+    <point x='493.86557' y='416.3519'/>
+    <point x='493.86557' y='247.47838'/>
+    <point x='493.86557' y='82.01972'/>
+  </room>
+  <room level='level1' nameAngle='4.712389' nameXOffset='40.0' nameYOffset='4.5776367E-5' areaAngle='4.712389' areaYOffset='4.5776367E-5'>
+    <texture attribute='floorTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <point x='840.13385' y='83.7758'/>
+    <point x='839.43036' y='237.29327'/>
+    <point x='839.9805' y='237.29327'/>
+    <point x='839.9805' y='241.59888'/>
+    <point x='747.4661' y='241.59894'/>
+    <point x='747.46625' y='237.3183'/>
+    <point x='657.7424' y='237.3183'/>
+    <point x='657.7424' y='83.7758'/>
+    <point x='694.3282' y='83.7758'/>
+  </room>
+  <room level='level1' nameAngle='4.712389' nameXOffset='-39.99994' nameYOffset='4.5776367E-5' areaAngle='4.712389' areaXOffset='6.1035156E-5' areaYOffset='4.5776367E-5'>
+    <texture attribute='floorTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <point x='507.59924' y='237.1773'/>
+    <point x='507.59924' y='227.22925'/>
+    <point x='507.59924' y='83.7758'/>
+    <point x='647.3129' y='83.7758'/>
+    <point x='648.0158' y='237.1773'/>
+  </room>
+  <room level='level2' nameAngle='4.712389' nameXOffset='-40.0' nameYOffset='4.5776367E-5' areaVisible='true' areaAngle='4.712389' areaXOffset='-35.51544' areaYOffset='20.421402'>
+    <texture attribute='floorTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <point x='657.47296' y='83.7758'/>
+    <point x='658.17645' y='237.29327'/>
+    <point x='657.6263' y='237.29327'/>
+    <point x='657.6263' y='241.59888'/>
+    <point x='750.1407' y='241.59894'/>
+    <point x='750.14056' y='237.3183'/>
+    <point x='839.86444' y='237.3183'/>
+    <point x='839.86444' y='83.7758'/>
+    <point x='803.2786' y='83.7758'/>
+  </room>
+  <room level='level2' areaVisible='true' areaXOffset='-115.666626' areaYOffset='6.7471924'>
+    <texture attribute='floorTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <texture attribute='ceilingTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <point x='186.0102' y='82.01972'/>
+    <point x='648.0158' y='82.01972'/>
+    <point x='648.0158' y='247.4784'/>
+    <point x='839.0514' y='247.3374'/>
+    <point x='839.0764' y='435.77646'/>
+    <point x='185.02411' y='435.77652'/>
+  </room>
+  <room level='level3' areaVisible='true'>
+    <texture attribute='floorTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <texture attribute='ceilingTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <point x='570.73' y='242.3735'/>
+    <point x='570.73' y='247.47833'/>
+    <point x='504.0255' y='247.47833'/>
+    <point x='504.0255' y='426.51187'/>
+    <point x='493.1673' y='426.51187'/>
+    <point x='493.1673' y='421.40704'/>
+    <point x='416.2173' y='421.40704'/>
+    <point x='416.2173' y='426.51187'/>
+    <point x='185.02408' y='426.51187'/>
+    <point x='185.02408' y='430.22446'/>
+    <point x='177.37909' y='430.22446'/>
+    <point x='177.37909' y='522.26447'/>
+    <point x='185.02408' y='522.26447'/>
+    <point x='185.02408' y='607.63654'/>
+    <point x='264.6087' y='607.63654'/>
+    <point x='264.6087' y='894.9116'/>
+    <point x='256.9637' y='894.91156'/>
+    <point x='256.9637' y='986.95166'/>
+    <point x='264.6087' y='986.95166'/>
+    <point x='264.6087' y='1136.7964'/>
+    <point x='577.50604' y='1138.4958'/>
+    <point x='577.50604' y='785.4637'/>
+    <point x='587.6661' y='785.4637'/>
+    <point x='587.6661' y='1138.5237'/>
+    <point x='840.2851' y='1138.5239'/>
+    <point x='840.28516' y='247.33734'/>
+    <point x='836.5575' y='247.33734'/>
+    <point x='836.5575' y='242.3735'/>
+    <point x='759.58606' y='242.3735'/>
+    <point x='759.58606' y='247.33734'/>
+    <point x='692.7457' y='247.33734'/>
+    <point x='692.7457' y='247.47833'/>
+    <point x='647.67993' y='247.47833'/>
+    <point x='647.67993' y='242.3735'/>
+  </room>
+  <room level='level5' areaVisible='true'>
+    <texture attribute='floorTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <texture attribute='ceilingTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <point x='91.21303' y='9.282892'/>
+    <point x='7.3930306' y='9.282885'/>
+    <point x='7.3930283' y='66.00027'/>
+    <point x='91.21303' y='66.00027'/>
+    <point x='91.21301' y='430.49002'/>
+    <point x='172.8586' y='430.49002'/>
+    <point x='173.88063' y='9.282885'/>
+  </room>
+  <room level='level1' areaVisible='true'>
+    <texture attribute='floorTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <texture attribute='ceilingTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <point x='571.83136' y='242.3735'/>
+    <point x='571.8313' y='247.47833'/>
+    <point x='504.05798' y='247.47833'/>
+    <point x='504.5442' y='323.80087'/>
+    <point x='498.92078' y='323.80087'/>
+    <point x='498.92078' y='415.98032'/>
+    <point x='505.13135' y='415.98032'/>
+    <point x='505.31287' y='444.47482'/>
+    <point x='185.02411' y='444.47482'/>
+    <point x='185.02411' y='445.18002'/>
+    <point x='108.45853' y='445.18002'/>
+    <point x='108.45853' y='507.32672'/>
+    <point x='100.813324' y='507.32672'/>
+    <point x='100.813324' y='599.36664'/>
+    <point x='108.45853' y='599.36664'/>
+    <point x='108.45853' y='602.5617'/>
+    <point x='259.74338' y='600.62286'/>
+    <point x='258.85498' y='770.41986'/>
+    <point x='323.49426' y='770.41986'/>
+    <point x='323.49423' y='1136.9636'/>
+    <point x='839.0764' y='1138.4788'/>
+    <point x='839.0764' y='327.7634'/>
+    <point x='846.72156' y='327.76334'/>
+    <point x='846.7216' y='251.06339'/>
+    <point x='839.0764' y='251.06339'/>
+    <point x='839.0764' y='247.33734'/>
+    <point x='692.7457' y='247.33734'/>
+    <point x='692.7457' y='247.47833'/>
+    <point x='648.7813' y='247.47833'/>
+    <point x='648.7813' y='242.3735'/>
+  </room>
+  <room level='level1' areaVisible='true'>
+    <texture attribute='floorTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <texture attribute='ceilingTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <point x='185.02411' y='82.01972'/>
+    <point x='185.02411' y='434.31485'/>
+    <point x='495.08798' y='434.31485'/>
+    <point x='494.97202' y='416.11197'/>
+    <point x='498.97073' y='416.11197'/>
+    <point x='498.97073' y='323.66922'/>
+    <point x='494.38315' y='323.66922'/>
+    <point x='493.86566' y='242.43074'/>
+    <point x='498.94556' y='242.39838'/>
+    <point x='493.86557' y='242.39838'/>
+    <point x='493.86557' y='82.01972'/>
+  </room>
+  <room level='level2' areaVisible='true'>
+    <texture attribute='floorTexture' name='Black and white tiles' creator='eTeks' catalogId='eTeks#blackAndWhiteTiles' width='70.0' height='70.0' image='93'/>
+    <texture attribute='ceilingTexture' name='Black and white tiles' creator='eTeks' width='70.0' height='70.0' image='93'/>
+    <point x='407.86053' y='445.85825'/>
+    <point x='407.86053' y='599.8955'/>
+    <point x='476.44055' y='599.8955'/>
+    <point x='476.44055' y='445.85825'/>
+  </room>
+  <room level='level2' areaVisible='true'>
+    <texture attribute='floorTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <texture attribute='ceilingTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <point x='406.1892' y='605.9155'/>
+    <point x='406.1892' y='611.0288'/>
+    <point x='259.67224' y='611.0241'/>
+    <point x='257.77884' y='774.05536'/>
+    <point x='256.47485' y='774.918'/>
+    <point x='256.53073' y='784.7719'/>
+    <point x='107.55978' y='785.61676'/>
+    <point x='107.55979' y='1138.0128'/>
+    <point x='322.42755' y='1138.0128'/>
+    <point x='323.47156' y='1136.9688'/>
+    <point x='484.59915' y='1137.4447'/>
+    <point x='482.9122' y='611.0563'/>
+    <point x='483.13763' y='611.0563'/>
+    <point x='483.13763' y='605.9155'/>
+  </room>
+  <room level='level7' areaVisible='true'>
+    <texture attribute='floorTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <texture attribute='ceilingTexture' name='Light blue tiles' creator='eTeks' width='33.5' height='33.5' image='90'/>
+    <point x='91.21303' y='9.282892'/>
+    <point x='7.3930306' y='9.282885'/>
+    <point x='7.3930283' y='66.00027'/>
+    <point x='91.21303' y='66.00027'/>
+    <point x='91.21301' y='430.49002'/>
+    <point x='172.8586' y='430.49002'/>
+    <point x='173.88063' y='9.282885'/>
+  </room>
+  <room level='level6' areaVisible='true'>
+    <texture attribute='floorTexture' name='Grey tiles' creator='eTeks' catalogId='eTeks#greyTile' width='31.5' height='31.5' image='92'/>
+    <texture attribute='ceilingTexture' name='Grey tiles' creator='eTeks' catalogId='eTeks#greyTile' width='31.5' height='31.5' image='92'/>
+    <point x='188.42644' y='82.135574'/>
+    <point x='191.24315' y='240.71082'/>
+    <point x='520.53815' y='240.71082'/>
+    <point x='520.53815' y='84.08688'/>
+  </room>
+  <room level='level8' areaVisible='true' ceilingVisible='false'>
+    <texture attribute='floorTexture' name='Grey tiles' creator='eTeks' catalogId='eTeks#greyTile' width='31.5' height='31.5' image='92'/>
+    <texture attribute='ceilingTexture' name='Grey tiles' creator='eTeks' catalogId='eTeks#greyTile' width='31.5' height='31.5' image='92'/>
+    <point x='357.94336' y='83.72076'/>
+    <point x='357.94336' y='281.3661'/>
+    <point x='192.86017' y='281.3661'/>
+    <point x='195.41626' y='83.10449'/>
+  </room>
+  <room level='level4' areaVisible='true'>
+    <texture attribute='floorTexture' name='Grey tiles' creator='eTeks' catalogId='eTeks#greyTile' width='31.5' height='31.5' image='92'/>
+    <texture attribute='ceilingTexture' name='Grey tiles' creator='eTeks' catalogId='eTeks#greyTile' width='31.5' height='31.5' image='92'/>
+    <point x='507.59924' y='83.7758'/>
+    <point x='839.04553' y='81.24219'/>
+    <point x='840.28516' y='242.28125'/>
+    <point x='508.82214' y='242.28122'/>
+  </room>
+  <room level='level1' ceilingVisible='false'>
+    <texture attribute='floorTexture' name='Pebbles' creator='eTeks' catalogId='eTeks#pebbles' width='20.0' height='20.0' image='94'/>
+    <point x='2.3360126' y='434.31485'/>
+    <point x='93.21853' y='434.31485'/>
+    <point x='93.21851' y='784.21606'/>
+    <point x='307.17383' y='784.21094'/>
+    <point x='308.27704' y='1152.1584'/>
+    <point x='854.3164' y='1152.1584'/>
+    <point x='854.3164' y='66.77972'/>
+    <point x='915.8119' y='66.77972'/>
+    <point x='914.7741' y='1253.7233'/>
+    <point x='0.9857968' y='1251.2827'/>
+  </room>
+  <label level='level1' x='471.8687' y='629.90375' pitch='0.0'>
+    <textStyle fontSize='18.0'/>
+    <text>Level 0 - 16&apos; high ceiling</text>
+  </label>
+  <label level='level3' x='516.0443' y='746.41113' angle='1.7484555E-7' pitch='0.0'>
+    <textStyle fontSize='18.0'/>
+    <text>Level 1 - 12&apos; high ceiling</text>
+  </label>
+  <label level='level5' x='639.2966' y='924.3065' angle='1.7484555E-7' pitch='0.0'>
+    <textStyle fontSize='18.0'/>
+    <text>Level 2</text>
+  </label>
+  <label level='level7' x='564.4061' y='933.9027' pitch='0.0'>
+    <textStyle fontSize='18.0'/>
+    <text>Level 3 terrace</text>
+  </label>
+  <label level='level9' x='378.86804' y='452.06335' pitch='0.0'>
+    <textStyle fontSize='30.48'/>
+    <text>Tank Level</text>
+  </label>
+  <label level='level9' x='837.02966' y='-36.137726' pitch='1.5707964'>
+    <textStyle fontSize='18.0'/>
+    <text>East</text>
+  </label>
+  <label level='level3' x='313.08276' y='363.5359' pitch='0.0'>
+    <textStyle fontSize='18.0'/>
+    <text>Level 1</text>
+  </label>
+</home>
