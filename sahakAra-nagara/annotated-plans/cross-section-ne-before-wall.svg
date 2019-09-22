@@ -1160,8 +1160,8 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="1.0072115"
-     inkscape:cx="146.03872"
-     inkscape:cy="259.01004"
+     inkscape:cx="106.32511"
+     inkscape:cy="775.28691"
      inkscape:window-x="1920"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -1825,4 +1825,22 @@
      transform="scale(0.80108339,1.2483095)"><tspan
        sodipodi:role="line"
        id="tspan1468">8'</tspan></text>
+  <rect
+     id="rect1628"
+     width="725.76611"
+     height="10.921242"
+     x="57.584728"
+     y="378.82556" />
+  <rect
+     id="rect1628-3"
+     width="725.76611"
+     height="10.921242"
+     x="58.081169"
+     y="617.60364" />
+  <rect
+     id="rect1628-6"
+     width="725.76611"
+     height="10.921242"
+     x="55.102646"
+     y="870.77783" />
 </svg>
